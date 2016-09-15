@@ -1,0 +1,23 @@
+{
+  "name": "marshal-bot",
+  "version": "1.0.0",
+  "description": "Formula 1 Facebook Messenger Bot – Calendar, Results and Standings",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "node app/main.js"
+  },
+  "author": "Flávio Atas Medeiros <sigmus@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "dotenv": "2.0.0",
+    "express": "4.13.4",
+    "lodash": "4.13.1",
+    "moment": "2.13.0",
+    "request": "2.72.0",
+    "uuid": "2.0.2"
+  },
+  "engines": {
+    "node": "6.2.2"
+  }
+}

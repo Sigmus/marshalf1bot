@@ -5,8 +5,10 @@ const {getNextRounds, getRound} = require('./data');
 const list = require('./list');
 
 function nextRound(recipientId) {
-  const nextRoundNumber = getNextRounds()[0].round;
-  round(recipientId, nextRoundNumber);
+  sendTextMessage(recipientId, "2016 Season is over");
+  return;
+  // const nextRoundNumber = getNextRounds()[0].round;
+  // round(recipientId, nextRoundNumber);
 }
 
 

@@ -5,10 +5,10 @@ const {getNextRounds, getRound} = require('./data');
 const list = require('./list');
 
 function nextRound(recipientId) {
-  sendTextMessage(recipientId, "2016 Season is over");
-  return;
-  // const nextRoundNumber = getNextRounds()[0].round;
-  // round(recipientId, nextRoundNumber);
+  // sendTextMessage(recipientId, "2017 Season is over");
+  // return;
+  const nextRoundNumber = getNextRounds()[0].round;
+  round(recipientId, nextRoundNumber);
 }
 
 
@@ -19,7 +19,7 @@ function round(recipientId, roundNumber) {
     return;
   }
   if (_.size(round.results) > 0) {
-    if (round.results[2016]) {
+    if (round.results[2017]) {
       buttons.push({
         type: 'postback',
         title: 'Race Results',

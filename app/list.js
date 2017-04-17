@@ -12,7 +12,7 @@ const lists = {
     }
     const round = getRound(roundNumber);
     const title = `${round.raceName} results:`;
-    const rows = round.results[2016].map(
+    const rows = round.results[2017].map(
       result => `${result.position}. ${result.Driver.familyName}`
     );
     return {title, rows};
@@ -45,7 +45,7 @@ const lists = {
   },
 
   drivers() {
-    const title = `2016 Driver's Championship:`;
+    const title = `2017 Driver's Championship:`;
     const rows = getDrivers().map(
       driver => `${driver.position}. ${driver.Driver.familyName} – ${driver.points}`
     );
@@ -53,7 +53,7 @@ const lists = {
   },
 
   constructrors() {
-    const title = `2016 Constructor's Championship:`;
+    const title = `2017 Constructor's Championship:`;
     const rows = getConstructors().map(
       row => `${row.position}. ${row.Constructor.name} – ${row.points}`
     );
@@ -61,7 +61,7 @@ const lists = {
   },
 
   remaining() {
-    const title = `Remaining 2016 rounds:`;
+    const title = `Remaining 2017 rounds:`;
     const rows = getNextRounds().map(
       row => `${row.round}. ${row.title}, ${moment.unix(row.ts).format('MMM Do')}`
     )

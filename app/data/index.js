@@ -2,26 +2,26 @@ const _ = require( 'lodash');
 const request = require('request');
 const moment = require('moment');
 
-const season2016 = require('./season2016.json');
+const season2017 = require('./season2017.json');
+const results2016 = require('./results2016.json');
 const results2015 = require('./results2015.json');
 const results2014 = require('./results2014.json');
 const results2013 = require('./results2013.json');
-const results2012 = require('./results2012.json');
 
 let data;
 
 const promise =Promise.all([
 
-  ergast('2016/driverStandings')
+  ergast('2017/driverStandings')
     .then(x => x.MRData.StandingsTable.StandingsLists[0].DriverStandings),
-  ergast('2016/constructorStandings')
+  ergast('2017/constructorStandings')
     .then(x => x.MRData.StandingsTable.StandingsLists[0].ConstructorStandings),
-  ergast('2016/qualifying', {limit: 10000}),
-  ergast('2016/results', {limit: 10000})
+  ergast('2017/qualifying', {limit: 10000}),
+  ergast('2017/results', {limit: 10000})
 
-  ]).then(([drivers, constructors, qualifying, results2016]) => {
+  ]).then(([drivers, constructors, qualifying, results2017]) => {
 
-    const rounds = season2016.MRData.RaceTable.Races.map((item, index) => {
+    const rounds = season2017.MRData.RaceTable.Races.map((item, index) => {
       item.title = item.raceName.replace(' Grand Prix', '');
       item.slug = _.kebabCase(item.title);
       item.ts = moment(`${item.date}T${item.time}`).unix();
@@ -32,7 +32,7 @@ const promise =Promise.all([
       return item;
     });
 
-    [results2016, results2015, results2014, results2013, results2012].forEach((result) => {
+    [results2017, results2016, results2015, results2014, results2013].forEach((result) => {
       result.MRData.RaceTable.Races.forEach((item) => {
         const {circuitId} = item.Circuit;
         const round = rounds.filter((x) => x.Circuit.circuitId === circuitId)[0];

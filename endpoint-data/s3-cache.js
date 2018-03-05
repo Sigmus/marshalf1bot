@@ -26,7 +26,7 @@ const writeObject = (params, data) => {
   const payload = {
     Bucket: params.Bucket,
     Key: params.Key,
-    Body: JSON.stringify(data, null, 4)
+    Body: JSON.stringify(data)
   };
   return new Promise((resolve, reject) => {
     s3.putObject(payload, err => {

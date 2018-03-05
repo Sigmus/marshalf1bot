@@ -1,5 +1,6 @@
 const moment = require("moment");
 const _ = require("lodash");
+const AWS = require("aws-sdk");
 
 const season2017 = require("./season2017.json");
 const results2017 = require("./results2017.json");
@@ -9,6 +10,8 @@ const results2014 = require("./results2014.json");
 const results2013 = require("./results2013.json");
 
 const ergast = require("./ergast");
+
+const s3 = new AWS.S3();
 
 module.exports = () =>
   Promise.all([
@@ -56,5 +59,20 @@ module.exports = () =>
       }
     };
 
-    return data;
+    const params = {
+      Bucket: "marshalf1bot",
+      Key: "data.json",
+      Body: JSON.stringify(data, null, 4)
+    };
+
+    return new Promise((resolve, reject) => {
+      s3.putObject(params, err => {
+        if (err) {
+          console.log(err);
+        } else {
+          console.log("Successfully uploaded data to myBucket/myKey");
+          resolve(data);
+        }
+      });
+    });
   });

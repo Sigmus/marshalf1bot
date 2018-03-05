@@ -2,6 +2,7 @@ const AWS = require("aws-sdk");
 
 const s3 = new AWS.S3();
 
+// We don't actually need to read anymore
 const readObject = (params, fetcher) =>
   new Promise((resolve, reject) => {
     s3.getObject(params, (err, res) => {

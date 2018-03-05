@@ -6,7 +6,7 @@ const s3Cache = require("./s3-cache");
 
 module.exports = api;
 
-api.get("/data", () => {
+api.get("/", () => {
   return s3Cache.readObject(
     { Bucket: "marshalf1bot", Key: "data.json" },
     fetchRemote

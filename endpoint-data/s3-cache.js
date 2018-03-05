@@ -22,21 +22,22 @@ const readObject = (params, fetcher, timeout) =>
     });
   });
 
-const writeObject = (params, data) => {
-  const payload = {
-    Bucket: params.Bucket,
-    Key: params.Key,
-    Body: JSON.stringify(data)
-  };
-  return new Promise((resolve, reject) => {
-    s3.putObject(payload, err => {
-      if (err) {
-        console.log(err);
-        return;
+const writeObject = (params, data) =>
+  new Promise((resolve, reject) => {
+    s3.putObject(
+      {
+        Bucket: params.Bucket,
+        Key: params.Key,
+        Body: JSON.stringify(data)
+      },
+      err => {
+        if (err) {
+          console.log(err);
+          return;
+        }
+        resolve(data);
       }
-      resolve(data);
-    });
+    );
   });
-};
 
 module.exports = { readObject, writeObject };

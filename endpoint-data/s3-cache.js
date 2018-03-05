@@ -28,7 +28,8 @@ const writeObject = (params, data) =>
       {
         Bucket: params.Bucket,
         Key: params.Key,
-        Body: JSON.stringify(data)
+        Body: JSON.stringify(data),
+        ACL: "public-read"
       },
       err => {
         if (err) {

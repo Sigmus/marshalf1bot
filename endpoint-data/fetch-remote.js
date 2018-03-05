@@ -1,12 +1,12 @@
 const moment = require("moment");
 const _ = require("lodash");
 
-const season2017 = require("./season2017.json");
-const results2017 = require("./results2017.json");
-const results2016 = require("./results2016.json");
-const results2015 = require("./results2015.json");
-const results2014 = require("./results2014.json");
-const results2013 = require("./results2013.json");
+const season2017 = require("./past/season2017.json");
+const results2017 = require("./past/results2017.json");
+const results2016 = require("./past/results2016.json");
+const results2015 = require("./past/results2015.json");
+const results2014 = require("./past/results2014.json");
+const results2013 = require("./past/results2013.json");
 
 const ergast = require("./ergast");
 

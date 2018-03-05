@@ -3,8 +3,10 @@
 const ApiBuilder = require("claudia-api-builder");
 const api = new ApiBuilder();
 
+const data = require("./data");
+
 module.exports = api;
 
-api.get("/hello", () => {
-  return "hello world";
+api.get("/data", () => {
+  return data();
 });

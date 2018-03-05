@@ -9,7 +9,6 @@ module.exports = api;
 api.get("/data", () => {
   return s3Cache.readObject(
     { Bucket: "marshalf1bot", Key: "data.json" },
-    fetchRemote,
-    5
+    fetchRemote
   );
 });

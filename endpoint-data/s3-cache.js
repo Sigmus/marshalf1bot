@@ -11,14 +11,11 @@ const readObject = (params, fetcher, timeout) =>
       } else {
         const diff = moment().diff(moment(_data.LastModified), "minutes");
         const data = JSON.parse(_data.Body.toString("utf-8"));
-        console.log("diff", diff);
         if (diff > timeout) {
-          console.log("if");
           fetcher().then(data => {
             writeObject(params, data).then(() => resolve(data));
           });
         } else {
-          console.log("else");
           resolve(data);
         }
       }

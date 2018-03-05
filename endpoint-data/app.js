@@ -1,12 +1,15 @@
-// https://a6fhgm3mmj.execute-api.eu-west-1.amazonaws.com/latest/hello
-
 const ApiBuilder = require("claudia-api-builder");
 const api = new ApiBuilder();
 
-const data = require("./data");
+const fetchRemote = require("./fetch-remote");
+const s3Cache = require("./s3-cache");
 
 module.exports = api;
 
 api.get("/data", () => {
-  return data();
+  return s3Cache.readObject(
+    { Bucket: "marshalf1bot", Key: "data.json" },
+    fetchRemote,
+    5
+  );
 });

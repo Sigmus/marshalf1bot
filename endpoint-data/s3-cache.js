@@ -8,16 +8,16 @@ const readObject = (params, fetcher, timeout) =>
     s3.getObject(params, (err, _data) => {
       if (err) {
         console.log(err);
+        return;
+      }
+      const diff = moment().diff(moment(_data.LastModified), "minutes");
+      const data = JSON.parse(_data.Body.toString("utf-8"));
+      if (diff > timeout) {
+        fetcher().then(data => {
+          writeObject(params, data).then(() => resolve(data));
+        });
       } else {
-        const diff = moment().diff(moment(_data.LastModified), "minutes");
-        const data = JSON.parse(_data.Body.toString("utf-8"));
-        if (diff > timeout) {
-          fetcher().then(data => {
-            writeObject(params, data).then(() => resolve(data));
-          });
-        } else {
-          resolve(data);
-        }
+        resolve(data);
       }
     });
   });
@@ -32,10 +32,9 @@ const writeObject = (params, data) => {
     s3.putObject(payload, err => {
       if (err) {
         console.log(err);
-      } else {
-        console.log("Successfully uploaded data to myBucket/myKey");
-        resolve(data);
+        return;
       }
+      resolve(data);
     });
   });
 };

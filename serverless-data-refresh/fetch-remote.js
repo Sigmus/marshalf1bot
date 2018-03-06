@@ -1,3 +1,4 @@
+const request = require("request");
 const moment = require("moment");
 const _ = require("lodash");
 
@@ -8,7 +9,27 @@ const results2015 = require("./past/results2015.json");
 const results2014 = require("./past/results2014.json");
 const results2013 = require("./past/results2013.json");
 
-const ergast = require("./ergast");
+/*
+ * Return a promise of an JSON API request
+ */
+const ergast = (path, qs = {}) => {
+  return new Promise((resolve, reject) => {
+    request(
+      {
+        uri: `http://ergast.com/api/f1/${path}.json`,
+        qs,
+        method: "GET"
+      },
+      (error, response, body) => {
+        if (error || response.statusCode !== 200) {
+          reject(response.body);
+          return;
+        }
+        resolve(JSON.parse(response.body));
+      }
+    );
+  });
+};
 
 module.exports = () => {
   return Promise.all([

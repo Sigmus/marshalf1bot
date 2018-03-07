@@ -11,7 +11,7 @@
 #
 # Happy Coding!
 
-service: serverless-data-refresh
+service: marshal-fetch-ergast
 
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
@@ -21,7 +21,6 @@ provider:
   name: aws
   runtime: nodejs6.10
   region: eu-west-1
-  timeout: 25
 
 # you can overwrite defaults here
 #  stage: dev
@@ -83,7 +82,7 @@ functions:
 #            detail:
 #              state:
 #                - pending
-#      - cloudwatchLog: '/aws/lambda/hello'
+#      - cloudwatchLog: '/aws/lambda/refresh'
 #      - cognitoUserPool:
 #          pool: MyUserPool
 #          trigger: PreSignUp

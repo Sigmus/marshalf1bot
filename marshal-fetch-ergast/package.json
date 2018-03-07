@@ -1,8 +1,8 @@
 {
-  "name": "serverless-data-refresh",
+  "name": "marshal-fetch-ergast",
   "version": "1.0.0",
   "description": "",
-  "main": "ergast.js",
+  "main": "fetch-remote.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

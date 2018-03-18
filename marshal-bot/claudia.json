@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "marshal-bot-executor",
+    "name": "marshal-bot",
+    "region": "eu-west-1"
+  },
+  "api": {
+    "id": "ztkwcs0031",
+    "module": "bot"
+  }
+}

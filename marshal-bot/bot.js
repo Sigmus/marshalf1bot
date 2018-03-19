@@ -5,6 +5,7 @@ const s3 = new AWS.S3();
 
 const remaining = require("./remaining");
 const drivers = require("./drivers");
+const constructors = require("./constructors");
 
 module.exports = botBuilder(request => {
   return new Promise((resolve, reject) => {
@@ -22,6 +23,9 @@ module.exports = botBuilder(request => {
           const cmd = request.text.toLowerCase();
           if (cmd === "drivers") {
             return resolve(drivers(data.standings.drivers));
+          }
+          if (cmd === "constructors") {
+            return resolve(constructors(data.standings.constructors));
           }
           if (cmd === "races") {
             return resolve(remaining(data.rounds));

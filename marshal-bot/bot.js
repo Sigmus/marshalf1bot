@@ -19,8 +19,14 @@ module.exports = botBuilder(request => {
           reject(err);
         } else {
           const data = JSON.parse(response.Body.toString());
-          resolve(remaining(data.rounds));
-          // resolve(drivers(data.standings.drivers));
+          const cmd = request.text.toLowerCase();
+          if (cmd === "drivers") {
+            return resolve(drivers(data.standings.drivers));
+          }
+          if (cmd === "races") {
+            return resolve(remaining(data.rounds));
+          }
+          resolve("What?");
         }
       }
     );

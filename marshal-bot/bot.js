@@ -19,8 +19,8 @@ module.exports = botBuilder(request => {
           reject(err);
         } else {
           const data = JSON.parse(response.Body.toString());
-          // resolve(remaining(data));
-          resolve(drivers(data));
+          resolve(remaining(data.rounds));
+          // resolve(drivers(data.standings.drivers));
         }
       }
     );

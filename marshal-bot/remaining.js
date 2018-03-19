@@ -1,8 +1,7 @@
 const moment = require("moment");
 
 module.exports = data => {
-  const content = data.rounds
-    .slice(0, 30)
+  const content = data
     .map(
       row =>
         `${row.round}. ${row.title}, ${moment.unix(row.ts).format("MMM Do")}`

@@ -1,5 +1,3 @@
-const moment = require("moment");
-
 module.exports = data => {
   const content = data
     .map(row => `${row.position}. ${row.Driver.familyName} – ${row.points}`)

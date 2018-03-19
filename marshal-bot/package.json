@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.211.0",
-    "claudia-bot-builder": "^3.0.0"
+    "claudia-bot-builder": "^3.0.0",
+    "moment": "^2.21.0"
   }
 }

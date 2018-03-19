@@ -3,6 +3,9 @@ const botBuilder = require("claudia-bot-builder");
 
 const s3 = new AWS.S3();
 
+const remaining = require("./remaining");
+const drivers = require("./drivers");
+
 module.exports = botBuilder(request => {
   return new Promise((resolve, reject) => {
     s3.getObject(
@@ -15,8 +18,9 @@ module.exports = botBuilder(request => {
           console.log(err);
           reject(err);
         } else {
-          const data = response.Body.toString();
-          resolve("Pong: " + request.text);
+          const data = JSON.parse(response.Body.toString());
+          // resolve(remaining(data));
+          resolve(drivers(data));
         }
       }
     );

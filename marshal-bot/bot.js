@@ -7,6 +7,7 @@ const remaining = require("./remaining");
 const drivers = require("./drivers");
 const constructors = require("./constructors");
 const results = require("./results");
+const qualifying = require("./qualifying");
 
 module.exports = botBuilder(request => {
   return new Promise((resolve, reject) => {
@@ -33,6 +34,9 @@ module.exports = botBuilder(request => {
           }
           if (cmd === "results") {
             return resolve(results(data.rounds[0]));
+          }
+          if (cmd === "qualifying") {
+            return resolve(qualifying(data.rounds[0]));
           }
 
           resolve("What?");

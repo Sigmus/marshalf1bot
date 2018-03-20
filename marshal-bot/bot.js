@@ -9,6 +9,7 @@ const constructors = require("./constructors");
 const results = require("./results");
 const qualifying = require("./qualifying");
 const winners = require("./winners");
+const round = require("./round");
 
 module.exports = botBuilder(request => {
   return new Promise((resolve, reject) => {
@@ -41,6 +42,10 @@ module.exports = botBuilder(request => {
           }
           if (cmd === "winners") {
             return resolve(winners(data.rounds[0]));
+          }
+
+          if (cmd === "next") {
+            return resolve(round(data.rounds[0]));
           }
 
           resolve("What?");

@@ -37,6 +37,10 @@ module.exports = botBuilder(request => {
             return resolve(remaining(data.rounds));
           }
 
+          if (cmd === "last results") {
+            return resolve(results(data.rounds[0]));
+          }
+
           aux = cmd.split("results");
           if (aux.length === 2) {
             return resolve(results(data.rounds[parseInt(aux[1])]));

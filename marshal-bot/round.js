@@ -2,9 +2,7 @@ const { fbTemplate } = require("claudia-bot-builder");
 const size = require("lodash/size");
 const moment = require("moment");
 
-module.exports = data => {
-  const roundNumber = 0;
-
+module.exports = (data, roundNumber) => {
   const obj = new fbTemplate.Button(
     `${data.raceName}\n${moment.unix(data.ts).format("MMM Do, LT")} – Round ${
       data.round

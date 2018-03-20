@@ -26,13 +26,17 @@ module.exports = botBuilder(request => {
           const data = JSON.parse(response.Body.toString());
           const cmd = request.text.toLowerCase();
           let aux;
+
           console.log("cmd", cmd);
+
           if (cmd === "drivers") {
             return resolve(drivers(data.standings.drivers));
           }
+
           if (cmd === "constructors") {
             return resolve(constructors(data.standings.constructors));
           }
+
           if (cmd === "races") {
             return resolve(remaining(data.rounds));
           }

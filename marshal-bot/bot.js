@@ -25,6 +25,8 @@ module.exports = botBuilder(request => {
         } else {
           const data = JSON.parse(response.Body.toString());
           const cmd = request.text.toLowerCase();
+          let aux;
+          console.log("cmd", cmd);
           if (cmd === "drivers") {
             return resolve(drivers(data.standings.drivers));
           }
@@ -34,12 +36,17 @@ module.exports = botBuilder(request => {
           if (cmd === "races") {
             return resolve(remaining(data.rounds));
           }
-          if (cmd === "results") {
-            return resolve(results(data.rounds[0]));
+
+          aux = cmd.split("results");
+          if (aux.length === 2) {
+            return resolve(results(data.rounds[parseInt(aux[1])]));
           }
-          if (cmd === "qualifying") {
-            return resolve(qualifying(data.rounds[0]));
+
+          aux = cmd.split("qualifying");
+          if (aux.length === 2) {
+            return resolve(qualifying(data.rounds[parseInt(aux[1])]));
           }
+
           if (cmd === "winners") {
             return resolve(winners(data.rounds[0]));
           }

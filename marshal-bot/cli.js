@@ -1,3 +1,4 @@
+const fetchFromS3 = require("./fetch-from-s3");
 var argv = require("minimist")(process.argv.slice(2));
 
 const router = require("./router");
@@ -11,8 +12,11 @@ if (!argv.cmd) {
   process.exit(1);
 }
 
-const response = router(argv.cmd, data);
+const printResponse = response =>
+  console.log(
+    typeof response === "string" ? response : JSON.stringify(response, null, 4)
+  );
 
-console.log(
-  typeof response === "string" ? response : JSON.stringify(response, null, 4)
-);
+argv.s3
+  ? fetchFromS3().then(data => printResponse(router(argv.cmd, data)))
+  : printResponse(router(argv.cmd, data));

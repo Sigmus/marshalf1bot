@@ -5,7 +5,7 @@ const router = require("./router");
 const data = require("./data");
 
 // node cli.js --cmd 'next'
-// node cli.js --cmd 'drivers'
+// node cli.js --cmd 'drivers' --s3
 
 if (!argv.cmd) {
   console.log('Usage: php cli.js --cmd "something"');

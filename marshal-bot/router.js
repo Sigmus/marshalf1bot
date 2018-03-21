@@ -1,10 +1,10 @@
-const remaining = require("./remaining");
-const drivers = require("./drivers");
-const constructors = require("./constructors");
-const results = require("./results");
-const qualifying = require("./qualifying");
-const winners = require("./winners");
-const round = require("./round");
+const remaining = require("./replies/remaining");
+const drivers = require("./replies/drivers");
+const constructors = require("./replies/constructors");
+const results = require("./replies/results");
+const qualifying = require("./replies/qualifying");
+const winners = require("./replies/winners");
+const round = require("./replies/round");
 
 module.exports = (cmd, data) => {
   console.log("cmd", cmd);

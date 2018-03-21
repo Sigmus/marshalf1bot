@@ -1,6 +1,6 @@
 const botBuilder = require("claudia-bot-builder");
 const router = require("./router");
-const fetchFromS3 = require("./fetch-from-s3");
+const fetchFromS3 = require("./data/s3");
 
 module.exports = botBuilder(
   request => {

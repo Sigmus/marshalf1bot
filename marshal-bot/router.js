@@ -9,6 +9,7 @@ const round = require("./round");
 module.exports = (cmd, data) => {
   console.log("cmd", cmd);
   let aux;
+  let roundNumber;
 
   if (cmd === "drivers") {
     return drivers(data.standings.drivers);
@@ -18,7 +19,7 @@ module.exports = (cmd, data) => {
     return constructors(data.standings.constructors);
   }
 
-  if (cmd === "races") {
+  if (cmd === "races" || cmd === "remaining") {
     return remaining(data.rounds);
   }
 
@@ -27,13 +28,19 @@ module.exports = (cmd, data) => {
   }
 
   aux = cmd.split("results");
-  if (aux.length === 2) {
+  if (aux.length === 2 && aux[1] !== "") {
     return results(data.rounds[parseInt(aux[1])]);
   }
 
   aux = cmd.split("qualifying");
-  if (aux.length === 2) {
+  if (aux.length === 2 && aux[1] !== "") {
     return qualifying(data.rounds[parseInt(aux[1])]);
+  }
+
+  aux = cmd.split("round");
+  if (aux.length === 2 && aux[1] !== "") {
+    roundNumber = parseInt(aux[1]);
+    return qualifying(data.rounds[roundNumber], roundNumber);
   }
 
   if (cmd === "winners") {

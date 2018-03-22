@@ -43,10 +43,10 @@ module.exports = (cmd, data) => {
     return qualifying(data.rounds[roundNumber], roundNumber);
   }
 
-  if (cmd === "winners") {
-    return winners(data.rounds[0]);
+  aux = cmd.split("winners");
+  if (aux.length === 2 && aux[1] !== "") {
+    return winners(data.rounds[parseInt(aux[1])]);
   }
-
   if (cmd === "next") {
     return round(data.rounds[0], 0);
   }

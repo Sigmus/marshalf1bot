@@ -3,7 +3,7 @@ const request = require("request");
 /*
  * Return a promise of an JSON API request
  */
-const ergast = (path, qs = {}) => {
+const ergast = (path, qs = { limit: 1000 }) => {
   return new Promise((resolve, reject) => {
     request(
       {

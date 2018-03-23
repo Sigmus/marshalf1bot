@@ -9,14 +9,14 @@ module.exports = (data, roundNumber) => {
     }`
   );
 
-  if (size(data.results) > 0) {
-    if (data.results[2017]) {
-      obj.addButton("Race Results", `results ${roundNumber}`);
-    }
-  }
-
   if (size(data.qualifying) > 0) {
     obj.addButton("Qualifying", `qualifying ${roundNumber}`);
+  }
+
+  if (size(data.results) > 0 && data.results[2017]) {
+    obj.addButton("Race Results", `results ${roundNumber}`);
+  } else {
+    obj.addButton("Latest Winners", `winners ${roundNumber}`);
   }
 
   obj.addButton("Remaining races", "remaining");

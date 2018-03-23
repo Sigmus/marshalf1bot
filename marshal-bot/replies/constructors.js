@@ -3,5 +3,5 @@ module.exports = data => {
     .map(row => `${row.position}. ${row.Constructor.name} – ${row.points}`)
     .join("\n");
 
-  return `2017 Constructor's Championship:\n\n${content}`;
+  return `2018 Constructor's Championship:\n\n${content}`;
 };

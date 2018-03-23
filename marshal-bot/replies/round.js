@@ -13,7 +13,7 @@ module.exports = (data, roundNumber) => {
     obj.addButton("Qualifying", `qualifying ${roundNumber}`);
   }
 
-  if (size(data.results) > 0 && data.results[2017]) {
+  if (size(data.results) > 0 && data.results[2018]) {
     obj.addButton("Race Results", `results ${roundNumber}`);
   } else {
     obj.addButton("Latest Winners", `winners ${roundNumber}`);

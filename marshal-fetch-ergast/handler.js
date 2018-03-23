@@ -1,4 +1,4 @@
-const fetchRemote = require("./fetch-remote-2017");
+const fetchRemote = require("./fetch-remote-2018");
 const AWS = require("aws-sdk");
 
 const s3 = new AWS.S3();

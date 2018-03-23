@@ -1,6 +1,6 @@
 const argv = require("minimist")(process.argv.slice(2));
 const ergast = require("./ergast");
-const fetchRemote = require("./fetch-remote-2017");
+const fetchRemote = require("./fetch-remote-2018");
 
 argv.endpoint
   ? ergast(argv.endpoint).then(data =>

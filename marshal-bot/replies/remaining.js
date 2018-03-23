@@ -8,5 +8,5 @@ module.exports = data => {
     )
     .join("\n");
 
-  return `Remaining 2017 rounds:\n\n${content}`;
+  return `Remaining 2018 rounds:\n\n${content}`;
 };

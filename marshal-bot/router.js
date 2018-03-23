@@ -40,7 +40,7 @@ module.exports = (cmd, data) => {
   aux = cmd.split("round");
   if (aux.length === 2 && aux[1] !== "") {
     roundNumber = parseInt(aux[1]);
-    return qualifying(data.rounds[roundNumber], roundNumber);
+    return round(data.rounds[roundNumber], roundNumber);
   }
 
   aux = cmd.split("winners");

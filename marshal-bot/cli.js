@@ -1,7 +1,6 @@
 var argv = require("minimist")(process.argv.slice(2));
 const router = require("./router");
-const s3 = require("./data/s3");
-const data = require("./data/sample");
+const data = require("../data");
 
 // node cli.js --cmd 'next'
 // node cli.js --s3 --cmd 'drivers'
@@ -17,5 +16,5 @@ const printResponse = response =>
   );
 
 argv.s3
-  ? s3().then(data => printResponse(router(argv.cmd, data)))
-  : printResponse(router(argv.cmd, data));
+  ? data.fetchS3().then(data => printResponse(router(argv.cmd, data)))
+  : printResponse(router(argv.cmd, data.sample));

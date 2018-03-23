@@ -1,13 +1,14 @@
 const botBuilder = require("claudia-bot-builder");
 const router = require("./router");
-const fetchFromS3 = require("./data/s3");
+const data = require("data");
 
 module.exports = botBuilder(
   request => {
-    return fetchFromS3()
-      .then(data => {
+    return data
+      .fetchS3()
+      .then(response => {
         const cmd = request.text.toLowerCase();
-        return router(cmd, data);
+        return router(cmd, response);
       })
       .catch(err => {
         console.log(err);

@@ -1,19 +1,23 @@
-"use strict";
+const axios = require("axios");
 
 module.exports.broadcast = (event, context, callback) => {
-  console.log("event", JSON.stringify(event, null, 4));
-  // console.log("context", context);
-
-  const response = {
-    statusCode: 200,
-    body: JSON.stringify({
-      message: "Go Serverless v1.0! Your function executed successfully!",
-      input: event
-    })
+  const data = {
+    messaging_type: "UPDATE",
+    recipient: {
+      id: process.env.SENDER_ID
+    },
+    message: {
+      text: event.Records[0].Sns.Message
+    }
   };
 
-  callback(null, response);
-
-  // Use this code if you don't use the http event with the LAMBDA-PROXY integration
-  // callback(null, { message: 'Go Serverless v1.0! Your function executed successfully!', event });
+  axios({
+    data,
+    method: "POST",
+    url: `https://graph.facebook.com/v2.6/me/messages?access_token=${
+      process.env.ACCESS_TOKEN
+    }`
+  })
+    .then(() => callback(null, "finished"))
+    .catch(err => console.log(err));
 };

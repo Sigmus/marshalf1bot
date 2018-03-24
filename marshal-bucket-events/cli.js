@@ -11,7 +11,7 @@ if (argv.s3) {
     );
   });
 } else {
-  compare(JSON.stringify(current), JSON.stringify(previous))
+  compare(current, previous)
     .then(response => console.log(response))
     .catch(err => console.log(err));
 }

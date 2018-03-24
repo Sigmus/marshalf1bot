@@ -4,6 +4,7 @@ const fetchS3 = require("./data/fetch-s3");
 
 module.exports = botBuilder(
   request => {
+    // console.log(JSON.stringify(request, null, 4));
     return fetchS3()
       .then(response => {
         const cmd = request.text.toLowerCase();

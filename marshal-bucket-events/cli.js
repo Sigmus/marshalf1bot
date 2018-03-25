@@ -6,8 +6,8 @@ const fetchCurrentAndPrevious = require("./fetch-current-and-previous");
 
 if (argv.s3) {
   fetchCurrentAndPrevious().then(response => {
-    compare(response.current, response.previous).then(response =>
-      console.log(response)
+    compare(JSON.parse(response.current), JSON.parse(response.previous)).then(
+      response => console.log(response)
     );
   });
 } else {

@@ -22,4 +22,30 @@ const endpoint = (path, qs = { limit: 1000 }) => {
   });
 };
 
-module.exports = { endpoint };
+const driverStandings = year => {
+  return endpoint(`${year}/driverStandings`).then(response =>
+    response.MRData.StandingsTable.StandingsLists[0].DriverStandings.map(i => {
+      return {
+        position: i.position,
+        points: i.points,
+        Driver: { familyName: i.Driver.familyName }
+      };
+    })
+  );
+};
+
+const constructorStandings = year => {
+  return endpoint(`${year}/constructorStandings`).then(response =>
+    response.MRData.StandingsTable.StandingsLists[0].ConstructorStandings.map(
+      i => {
+        return {
+          position: i.position,
+          points: i.points,
+          Constructor: { name: i.Constructor.name }
+        };
+      }
+    )
+  );
+};
+
+module.exports = { endpoint, constructorStandings };

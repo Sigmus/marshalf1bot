@@ -64,4 +64,18 @@ const qualifying = year => {
   );
 };
 
-module.exports = { endpoint, constructorStandings, qualifying };
+const results = year => {
+  return endpoint(`${year}/results`).then(response =>
+    response.MRData.RaceTable.Races.map(i =>
+      i.Results.map(j => {
+        return {
+          position: j.position,
+          Time: j.Time,
+          Driver: { familyName: j.Driver.familyName }
+        };
+      })
+    )
+  );
+};
+
+module.exports = { endpoint, constructorStandings, qualifying, results };

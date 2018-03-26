@@ -11,14 +11,16 @@ const results2013 = require("./past/results2013.json");
 
 module.exports = () => {
   return Promise.all([
-    ergast("2017/driverStandings").then(
-      x => x.MRData.StandingsTable.StandingsLists[0].DriverStandings
-    ),
-    ergast("2017/constructorStandings").then(
-      x => x.MRData.StandingsTable.StandingsLists[0].ConstructorStandings
-    ),
-    ergast("2017/qualifying", { limit: 10000 }),
-    ergast("2017/results", { limit: 10000 })
+    ergast
+      .endpoint("2017/driverStandings")
+      .then(x => x.MRData.StandingsTable.StandingsLists[0].DriverStandings),
+    ergast
+      .endpoint("2017/constructorStandings")
+      .then(
+        x => x.MRData.StandingsTable.StandingsLists[0].ConstructorStandings
+      ),
+    ergast.endpoint("2017/qualifying", { limit: 10000 }),
+    ergast.endpoint("2017/results", { limit: 10000 })
   ]).then(([drivers, constructors, qualifying, results2017]) => {
     const rounds = season2017.MRData.RaceTable.Races.map((item, index) => {
       item.title = item.raceName.replace(" Grand Prix", "");

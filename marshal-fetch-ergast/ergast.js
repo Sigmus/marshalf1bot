@@ -3,7 +3,7 @@ const request = require("request");
 /*
  * Return a promise of an JSON API request
  */
-const ergast = (path, qs = { limit: 1000 }) => {
+const endpoint = (path, qs = { limit: 1000 }) => {
   return new Promise((resolve, reject) => {
     request(
       {
@@ -22,4 +22,4 @@ const ergast = (path, qs = { limit: 1000 }) => {
   });
 };
 
-module.exports = ergast;
+module.exports = { endpoint };

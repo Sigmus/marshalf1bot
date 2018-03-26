@@ -20,4 +20,10 @@ if (argv.constructorStandings) {
     .then(data => console.log(JSON.stringify(data, null, 4)));
 }
 
+if (argv.qualifying) {
+  ergast
+    .qualifying(argv.qualifying)
+    .then(data => console.log(JSON.stringify(data, null, 4)));
+}
+
 // : fetchRemote().then(data => console.log(JSON.stringify(data, null, 4)));

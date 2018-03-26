@@ -1,3 +1,4 @@
+const moment = require("moment");
 const request = require("request");
 
 /*
@@ -78,4 +79,22 @@ const results = year => {
   );
 };
 
-module.exports = { endpoint, constructorStandings, qualifying, results };
+const season = year => {
+  return endpoint(`${year}`).then(response => {
+    return response.MRData.RaceTable.Races.map(i => {
+      return {
+        round: i.round,
+        title: i.raceName.replace(" Grand Prix", ""),
+        ts: moment(`${i.date}T${i.time}`).unix()
+      };
+    });
+  });
+};
+
+module.exports = {
+  endpoint,
+  constructorStandings,
+  qualifying,
+  results,
+  season
+};

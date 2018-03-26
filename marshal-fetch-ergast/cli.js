@@ -32,4 +32,10 @@ if (argv.results) {
     .then(data => console.log(JSON.stringify(data, null, 4)));
 }
 
+if (argv.season) {
+  ergast
+    .season(argv.season)
+    .then(data => console.log(JSON.stringify(data, null, 4)));
+}
+
 // : fetchRemote().then(data => console.log(JSON.stringify(data, null, 4)));

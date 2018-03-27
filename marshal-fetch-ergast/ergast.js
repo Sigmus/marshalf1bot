@@ -94,6 +94,7 @@ const season = year => {
 module.exports = {
   endpoint,
   constructorStandings,
+  driverStandings,
   qualifying,
   results,
   season

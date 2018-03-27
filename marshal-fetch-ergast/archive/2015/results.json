@@ -1,0 +1,2996 @@
+[
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "5514067",
+                "time": "1:31:54.067"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "5515427",
+                "time": "+1.360"
+            },
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "5548590",
+                "time": "+34.523"
+            },
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "5552263",
+                "time": "+38.196"
+            },
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "5609216",
+                "time": "+1:35.149"
+            },
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        },
+        {
+            "position": "6",
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "7",
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        },
+        {
+            "position": "8",
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "9",
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "10",
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "11",
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "12",
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "13",
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "14",
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Magnussen"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "6065793",
+                "time": "1:41:05.793"
+            },
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "6074362",
+                "time": "+8.569"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "6078103",
+                "time": "+12.310"
+            },
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "6119615",
+                "time": "+53.822"
+            },
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "6136202",
+                "time": "+1:10.409"
+            },
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "6",
+            "Time": {
+                "millis": "6139379",
+                "time": "+1:13.586"
+            },
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "7",
+            "Time": {
+                "millis": "6163555",
+                "time": "+1:37.762"
+            },
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "8",
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "9",
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "10",
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "11",
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "12",
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        },
+        {
+            "position": "13",
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "14",
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Merhi"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "5982008",
+                "time": "1:39:42.008"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "5982722",
+                "time": "+0.714"
+            },
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "5984996",
+                "time": "+2.988"
+            },
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "5985843",
+                "time": "+3.835"
+            },
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "5990552",
+                "time": "+8.544"
+            },
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "6",
+            "Time": {
+                "millis": "5991893",
+                "time": "+9.885"
+            },
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "7",
+            "Time": {
+                "millis": "6001016",
+                "time": "+19.008"
+            },
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "8",
+            "Time": {
+                "millis": "6004633",
+                "time": "+22.625"
+            },
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        },
+        {
+            "position": "9",
+            "Time": {
+                "millis": "6014125",
+                "time": "+32.117"
+            },
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "10",
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "11",
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "12",
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        },
+        {
+            "position": "13",
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "14",
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Merhi"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "5705809",
+                "time": "1:35:05.809"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "5709189",
+                "time": "+3.380"
+            },
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "5711842",
+                "time": "+6.033"
+            },
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "5748766",
+                "time": "+42.957"
+            },
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "5749798",
+                "time": "+43.989"
+            },
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "6",
+            "Time": {
+                "millis": "5767560",
+                "time": "+1:01.751"
+            },
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "7",
+            "Time": {
+                "millis": "5790572",
+                "time": "+1:24.763"
+            },
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "8",
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "9",
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "10",
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "11",
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        },
+        {
+            "position": "12",
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        },
+        {
+            "position": "13",
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        },
+        {
+            "position": "14",
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Merhi"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Button"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "6072555",
+                "time": "1:41:12.555"
+            },
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "6090106",
+                "time": "+17.551"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "6117897",
+                "time": "+45.342"
+            },
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "6131772",
+                "time": "+59.217"
+            },
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "6132557",
+                "time": "+1:00.002"
+            },
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "6",
+            "Time": {
+                "millis": "6153869",
+                "time": "+1:21.314"
+            },
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "7",
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "8",
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "9",
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "10",
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "11",
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "12",
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        },
+        {
+            "position": "13",
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "14",
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Merhi"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "6558420",
+                "time": "1:49:18.420"
+            },
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "6562906",
+                "time": "+4.486"
+            },
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "6564473",
+                "time": "+6.053"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "6570385",
+                "time": "+11.965"
+            },
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "6572028",
+                "time": "+13.608"
+            },
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "6",
+            "Time": {
+                "millis": "6572765",
+                "time": "+14.345"
+            },
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "7",
+            "Time": {
+                "millis": "6573433",
+                "time": "+15.013"
+            },
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "8",
+            "Time": {
+                "millis": "6574483",
+                "time": "+16.063"
+            },
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "9",
+            "Time": {
+                "millis": "6582046",
+                "time": "+23.626"
+            },
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        },
+        {
+            "position": "10",
+            "Time": {
+                "millis": "6583476",
+                "time": "+25.056"
+            },
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "11",
+            "Time": {
+                "millis": "6584652",
+                "time": "+26.232"
+            },
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        },
+        {
+            "position": "12",
+            "Time": {
+                "millis": "6586835",
+                "time": "+28.415"
+            },
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "13",
+            "Time": {
+                "millis": "6589579",
+                "time": "+31.159"
+            },
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "14",
+            "Time": {
+                "millis": "6604209",
+                "time": "+45.789"
+            },
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Merhi"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "5513145",
+                "time": "1:31:53.145"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "5515430",
+                "time": "+2.285"
+            },
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "5553811",
+                "time": "+40.666"
+            },
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "5558770",
+                "time": "+45.625"
+            },
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "5563048",
+                "time": "+49.903"
+            },
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "6",
+            "Time": {
+                "millis": "5569526",
+                "time": "+56.381"
+            },
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "7",
+            "Time": {
+                "millis": "5579809",
+                "time": "+1:06.664"
+            },
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        },
+        {
+            "position": "8",
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        },
+        {
+            "position": "9",
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "10",
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "11",
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "12",
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "13",
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "14",
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Merhi"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "5416930",
+                "time": "1:30:16.930"
+            },
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "5425730",
+                "time": "+8.800"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "5434503",
+                "time": "+17.573"
+            },
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "5435111",
+                "time": "+18.181"
+            },
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "5470534",
+                "time": "+53.604"
+            },
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "6",
+            "Time": {
+                "millis": "5481005",
+                "time": "+1:04.075"
+            },
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        },
+        {
+            "position": "7",
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        },
+        {
+            "position": "8",
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "9",
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "10",
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "11",
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        },
+        {
+            "position": "12",
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "13",
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "14",
+            "Driver": {
+                "familyName": "Merhi"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "5487729",
+                "time": "1:31:27.729"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "5498685",
+                "time": "+10.956"
+            },
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "5513172",
+                "time": "+25.443"
+            },
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "5524568",
+                "time": "+36.839"
+            },
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "5550923",
+                "time": "+1:03.194"
+            },
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "6",
+            "Time": {
+                "millis": "5551684",
+                "time": "+1:03.955"
+            },
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "7",
+            "Time": {
+                "millis": "5566473",
+                "time": "+1:18.744"
+            },
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        },
+        {
+            "position": "8",
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "9",
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "10",
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        },
+        {
+            "position": "11",
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "12",
+            "Driver": {
+                "familyName": "Merhi"
+            }
+        },
+        {
+            "position": "13",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        },
+        {
+            "position": "14",
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "6369985",
+                "time": "1:46:09.985"
+            },
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "6385733",
+                "time": "+15.748"
+            },
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "6395069",
+                "time": "+25.084"
+            },
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "6414236",
+                "time": "+44.251"
+            },
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "6419064",
+                "time": "+49.079"
+            },
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        },
+        {
+            "position": "6",
+            "Time": {
+                "millis": "6422010",
+                "time": "+52.025"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "7",
+            "Time": {
+                "millis": "6428563",
+                "time": "+58.578"
+            },
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "8",
+            "Time": {
+                "millis": "6428861",
+                "time": "+58.876"
+            },
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "9",
+            "Time": {
+                "millis": "6437013",
+                "time": "+1:07.028"
+            },
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "10",
+            "Time": {
+                "millis": "6439115",
+                "time": "+1:09.130"
+            },
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "11",
+            "Time": {
+                "millis": "6443443",
+                "time": "+1:13.458"
+            },
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        },
+        {
+            "position": "12",
+            "Time": {
+                "millis": "6444263",
+                "time": "+1:14.278"
+            },
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "13",
+            "Time": {
+                "millis": "6450213",
+                "time": "+1:20.228"
+            },
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "14",
+            "Time": {
+                "millis": "6455127",
+                "time": "+1:25.142"
+            },
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Merhi"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "5020387",
+                "time": "1:23:40.387"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "5022445",
+                "time": "+2.058"
+            },
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "5058375",
+                "time": "+37.988"
+            },
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "5066079",
+                "time": "+45.692"
+            },
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "5074384",
+                "time": "+53.997"
+            },
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "6",
+            "Time": {
+                "millis": "5075670",
+                "time": "+55.283"
+            },
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "7",
+            "Time": {
+                "millis": "5076090",
+                "time": "+55.703"
+            },
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "8",
+            "Time": {
+                "millis": "5076463",
+                "time": "+56.076"
+            },
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "9",
+            "Time": {
+                "millis": "5081427",
+                "time": "+1:01.040"
+            },
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "10",
+            "Time": {
+                "millis": "5111621",
+                "time": "+1:31.234"
+            },
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "11",
+            "Time": {
+                "millis": "5122698",
+                "time": "+1:42.311"
+            },
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        },
+        {
+            "position": "12",
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "13",
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        },
+        {
+            "position": "14",
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Merhi"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "4680688",
+                "time": "1:18:00.688"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "4705730",
+                "time": "+25.042"
+            },
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "4728323",
+                "time": "+47.635"
+            },
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "4728684",
+                "time": "+47.996"
+            },
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "4749548",
+                "time": "+1:08.860"
+            },
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "6",
+            "Time": {
+                "millis": "4753471",
+                "time": "+1:12.783"
+            },
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "7",
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        },
+        {
+            "position": "8",
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "9",
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "10",
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "11",
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "12",
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "13",
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        },
+        {
+            "position": "14",
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Merhi"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "7282118",
+                "time": "2:01:22.118"
+            },
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "7283596",
+                "time": "+1.478"
+            },
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "7299272",
+                "time": "+17.154"
+            },
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "7306838",
+                "time": "+24.720"
+            },
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "7316322",
+                "time": "+34.204"
+            },
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "6",
+            "Time": {
+                "millis": "7317626",
+                "time": "+35.508"
+            },
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "7",
+            "Time": {
+                "millis": "7332954",
+                "time": "+50.836"
+            },
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "8",
+            "Time": {
+                "millis": "7333568",
+                "time": "+51.450"
+            },
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "9",
+            "Time": {
+                "millis": "7334978",
+                "time": "+52.860"
+            },
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "10",
+            "Time": {
+                "millis": "7372163",
+                "time": "+1:30.045"
+            },
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        },
+        {
+            "position": "11",
+            "Time": {
+                "millis": "7379625",
+                "time": "+1:37.507"
+            },
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "12",
+            "Time": {
+                "millis": "7379836",
+                "time": "+1:37.718"
+            },
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        },
+        {
+            "position": "13",
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "14",
+            "Driver": {
+                "familyName": "Rossi"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "5286508",
+                "time": "1:28:06.508"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "5305472",
+                "time": "+18.964"
+            },
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "5307358",
+                "time": "+20.850"
+            },
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "5320276",
+                "time": "+33.768"
+            },
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "5323254",
+                "time": "+36.746"
+            },
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "6",
+            "Time": {
+                "millis": "5342067",
+                "time": "+55.559"
+            },
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        },
+        {
+            "position": "7",
+            "Time": {
+                "millis": "5358806",
+                "time": "+1:12.298"
+            },
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "8",
+            "Time": {
+                "millis": "5360083",
+                "time": "+1:13.575"
+            },
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        },
+        {
+            "position": "9",
+            "Time": {
+                "millis": "5381823",
+                "time": "+1:35.315"
+            },
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "10",
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "11",
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        },
+        {
+            "position": "12",
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "13",
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "14",
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Rossi"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "5831024",
+                "time": "1:37:11.024"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "5836977",
+                "time": "+5.953"
+            },
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "5859942",
+                "time": "+28.918"
+            },
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "5869855",
+                "time": "+38.831"
+            },
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "5878590",
+                "time": "+47.566"
+            },
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "6",
+            "Time": {
+                "millis": "5887532",
+                "time": "+56.508"
+            },
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        },
+        {
+            "position": "7",
+            "Time": {
+                "millis": "5892112",
+                "time": "+1:01.088"
+            },
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        },
+        {
+            "position": "8",
+            "Time": {
+                "millis": "5903382",
+                "time": "+1:12.358"
+            },
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "9",
+            "Time": {
+                "millis": "5910491",
+                "time": "+1:19.467"
+            },
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "10",
+            "Time": {
+                "millis": "5919448",
+                "time": "+1:28.424"
+            },
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "11",
+            "Time": {
+                "millis": "5922234",
+                "time": "+1:31.210"
+            },
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        },
+        {
+            "position": "12",
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "13",
+            "Driver": {
+                "familyName": "Merhi"
+            }
+        },
+        {
+            "position": "14",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "6652703",
+                "time": "1:50:52.703"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "6655553",
+                "time": "+2.850"
+            },
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "6656084",
+                "time": "+3.381"
+            },
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "6675062",
+                "time": "+22.359"
+            },
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "6677116",
+                "time": "+24.413"
+            },
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "6",
+            "Time": {
+                "millis": "6680761",
+                "time": "+28.058"
+            },
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "7",
+            "Time": {
+                "millis": "6683322",
+                "time": "+30.619"
+            },
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "8",
+            "Time": {
+                "millis": "6684976",
+                "time": "+32.273"
+            },
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        },
+        {
+            "position": "9",
+            "Time": {
+                "millis": "6692960",
+                "time": "+40.257"
+            },
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        },
+        {
+            "position": "10",
+            "Time": {
+                "millis": "6706074",
+                "time": "+53.371"
+            },
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "11",
+            "Time": {
+                "millis": "6707519",
+                "time": "+54.816"
+            },
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        },
+        {
+            "position": "12",
+            "Time": {
+                "millis": "6727980",
+                "time": "+1:15.277"
+            },
+            "Driver": {
+                "familyName": "Rossi"
+            }
+        },
+        {
+            "position": "13",
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "14",
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "6155038",
+                "time": "1:42:35.038"
+            },
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "6156992",
+                "time": "+1.954"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "6169630",
+                "time": "+14.592"
+            },
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "6171610",
+                "time": "+16.572"
+            },
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "6174720",
+                "time": "+19.682"
+            },
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "6",
+            "Time": {
+                "millis": "6176531",
+                "time": "+21.493"
+            },
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "7",
+            "Time": {
+                "millis": "6180898",
+                "time": "+25.860"
+            },
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        },
+        {
+            "position": "8",
+            "Time": {
+                "millis": "6189381",
+                "time": "+34.343"
+            },
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "9",
+            "Time": {
+                "millis": "6190267",
+                "time": "+35.229"
+            },
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "10",
+            "Time": {
+                "millis": "6192972",
+                "time": "+37.934"
+            },
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "11",
+            "Time": {
+                "millis": "6193576",
+                "time": "+38.538"
+            },
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        },
+        {
+            "position": "12",
+            "Time": {
+                "millis": "6195218",
+                "time": "+40.180"
+            },
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "13",
+            "Time": {
+                "millis": "6203810",
+                "time": "+48.772"
+            },
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "14",
+            "Time": {
+                "millis": "6204252",
+                "time": "+49.214"
+            },
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Rossi"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "5469090",
+                "time": "1:31:09.090"
+            },
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "5476846",
+                "time": "+7.756"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "5483334",
+                "time": "+14.244"
+            },
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "5516633",
+                "time": "+47.543"
+            },
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "5",
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "6",
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        },
+        {
+            "position": "7",
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "8",
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "9",
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "10",
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        },
+        {
+            "position": "11",
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "12",
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "13",
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        },
+        {
+            "position": "14",
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Rossi"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Massa"
+            }
+        }
+    ],
+    [
+        {
+            "position": "1",
+            "Time": {
+                "millis": "5910175",
+                "time": "1:38:30.175"
+            },
+            "Driver": {
+                "familyName": "Rosberg"
+            }
+        },
+        {
+            "position": "2",
+            "Time": {
+                "millis": "5918446",
+                "time": "+8.271"
+            },
+            "Driver": {
+                "familyName": "Hamilton"
+            }
+        },
+        {
+            "position": "3",
+            "Time": {
+                "millis": "5929605",
+                "time": "+19.430"
+            },
+            "Driver": {
+                "familyName": "Räikkönen"
+            }
+        },
+        {
+            "position": "4",
+            "Time": {
+                "millis": "5953910",
+                "time": "+43.735"
+            },
+            "Driver": {
+                "familyName": "Vettel"
+            }
+        },
+        {
+            "position": "5",
+            "Time": {
+                "millis": "5974127",
+                "time": "+1:03.952"
+            },
+            "Driver": {
+                "familyName": "Pérez"
+            }
+        },
+        {
+            "position": "6",
+            "Time": {
+                "millis": "5975185",
+                "time": "+1:05.010"
+            },
+            "Driver": {
+                "familyName": "Ricciardo"
+            }
+        },
+        {
+            "position": "7",
+            "Time": {
+                "millis": "6003793",
+                "time": "+1:33.618"
+            },
+            "Driver": {
+                "familyName": "Hülkenberg"
+            }
+        },
+        {
+            "position": "8",
+            "Time": {
+                "millis": "6007926",
+                "time": "+1:37.751"
+            },
+            "Driver": {
+                "familyName": "Massa"
+            }
+        },
+        {
+            "position": "9",
+            "Time": {
+                "millis": "6008376",
+                "time": "+1:38.201"
+            },
+            "Driver": {
+                "familyName": "Grosjean"
+            }
+        },
+        {
+            "position": "10",
+            "Time": {
+                "millis": "6012546",
+                "time": "+1:42.371"
+            },
+            "Driver": {
+                "familyName": "Kvyat"
+            }
+        },
+        {
+            "position": "11",
+            "Time": {
+                "millis": "6013700",
+                "time": "+1:43.525"
+            },
+            "Driver": {
+                "familyName": "Sainz"
+            }
+        },
+        {
+            "position": "12",
+            "Driver": {
+                "familyName": "Button"
+            }
+        },
+        {
+            "position": "13",
+            "Driver": {
+                "familyName": "Bottas"
+            }
+        },
+        {
+            "position": "14",
+            "Driver": {
+                "familyName": "Ericsson"
+            }
+        },
+        {
+            "position": "15",
+            "Driver": {
+                "familyName": "Nasr"
+            }
+        },
+        {
+            "position": "16",
+            "Driver": {
+                "familyName": "Verstappen"
+            }
+        },
+        {
+            "position": "17",
+            "Driver": {
+                "familyName": "Alonso"
+            }
+        },
+        {
+            "position": "18",
+            "Driver": {
+                "familyName": "Stevens"
+            }
+        },
+        {
+            "position": "19",
+            "Driver": {
+                "familyName": "Merhi"
+            }
+        },
+        {
+            "position": "20",
+            "Driver": {
+                "familyName": "Maldonado"
+            }
+        }
+    ]
+]

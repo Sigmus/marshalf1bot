@@ -1,0 +1,540 @@
+{
+    "australian": [
+        {
+            "season": "2013",
+            "race": "australian",
+            "driver": "Räikkönen"
+        },
+        {
+            "season": "2014",
+            "race": "australian",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2015",
+            "race": "australian",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2016",
+            "race": "australian",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2017",
+            "race": "australian",
+            "driver": "Vettel"
+        }
+    ],
+    "malaysian": [
+        {
+            "season": "2013",
+            "race": "malaysian",
+            "driver": "Vettel"
+        },
+        {
+            "season": "2014",
+            "race": "malaysian",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2015",
+            "race": "malaysian",
+            "driver": "Vettel"
+        },
+        {
+            "season": "2016",
+            "race": "malaysian",
+            "driver": "Ricciardo"
+        },
+        {
+            "season": "2017",
+            "race": "malaysian",
+            "driver": "Verstappen"
+        }
+    ],
+    "chinese": [
+        {
+            "season": "2013",
+            "race": "chinese",
+            "driver": "Alonso"
+        },
+        {
+            "season": "2014",
+            "race": "chinese",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2015",
+            "race": "chinese",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2016",
+            "race": "chinese",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2017",
+            "race": "chinese",
+            "driver": "Hamilton"
+        }
+    ],
+    "bahrain": [
+        {
+            "season": "2013",
+            "race": "bahrain",
+            "driver": "Vettel"
+        },
+        {
+            "season": "2014",
+            "race": "bahrain",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2015",
+            "race": "bahrain",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2016",
+            "race": "bahrain",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2017",
+            "race": "bahrain",
+            "driver": "Vettel"
+        }
+    ],
+    "spanish": [
+        {
+            "season": "2013",
+            "race": "spanish",
+            "driver": "Alonso"
+        },
+        {
+            "season": "2014",
+            "race": "spanish",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2015",
+            "race": "spanish",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2016",
+            "race": "spanish",
+            "driver": "Verstappen"
+        },
+        {
+            "season": "2017",
+            "race": "spanish",
+            "driver": "Hamilton"
+        }
+    ],
+    "monaco": [
+        {
+            "season": "2013",
+            "race": "monaco",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2014",
+            "race": "monaco",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2015",
+            "race": "monaco",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2016",
+            "race": "monaco",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2017",
+            "race": "monaco",
+            "driver": "Vettel"
+        }
+    ],
+    "canadian": [
+        {
+            "season": "2013",
+            "race": "canadian",
+            "driver": "Vettel"
+        },
+        {
+            "season": "2014",
+            "race": "canadian",
+            "driver": "Ricciardo"
+        },
+        {
+            "season": "2015",
+            "race": "canadian",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2016",
+            "race": "canadian",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2017",
+            "race": "canadian",
+            "driver": "Hamilton"
+        }
+    ],
+    "british": [
+        {
+            "season": "2013",
+            "race": "british",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2014",
+            "race": "british",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2015",
+            "race": "british",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2016",
+            "race": "british",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2017",
+            "race": "british",
+            "driver": "Hamilton"
+        }
+    ],
+    "german": [
+        {
+            "season": "2013",
+            "race": "german",
+            "driver": "Vettel"
+        },
+        {
+            "season": "2014",
+            "race": "german",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2016",
+            "race": "german",
+            "driver": "Hamilton"
+        }
+    ],
+    "hungarian": [
+        {
+            "season": "2013",
+            "race": "hungarian",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2014",
+            "race": "hungarian",
+            "driver": "Ricciardo"
+        },
+        {
+            "season": "2015",
+            "race": "hungarian",
+            "driver": "Vettel"
+        },
+        {
+            "season": "2016",
+            "race": "hungarian",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2017",
+            "race": "hungarian",
+            "driver": "Vettel"
+        }
+    ],
+    "belgian": [
+        {
+            "season": "2013",
+            "race": "belgian",
+            "driver": "Vettel"
+        },
+        {
+            "season": "2014",
+            "race": "belgian",
+            "driver": "Ricciardo"
+        },
+        {
+            "season": "2015",
+            "race": "belgian",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2016",
+            "race": "belgian",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2017",
+            "race": "belgian",
+            "driver": "Hamilton"
+        }
+    ],
+    "italian": [
+        {
+            "season": "2013",
+            "race": "italian",
+            "driver": "Vettel"
+        },
+        {
+            "season": "2014",
+            "race": "italian",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2015",
+            "race": "italian",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2016",
+            "race": "italian",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2017",
+            "race": "italian",
+            "driver": "Hamilton"
+        }
+    ],
+    "singapore": [
+        {
+            "season": "2013",
+            "race": "singapore",
+            "driver": "Vettel"
+        },
+        {
+            "season": "2014",
+            "race": "singapore",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2015",
+            "race": "singapore",
+            "driver": "Vettel"
+        },
+        {
+            "season": "2016",
+            "race": "singapore",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2017",
+            "race": "singapore",
+            "driver": "Hamilton"
+        }
+    ],
+    "korean": [
+        {
+            "season": "2013",
+            "race": "korean",
+            "driver": "Vettel"
+        }
+    ],
+    "japanese": [
+        {
+            "season": "2013",
+            "race": "japanese",
+            "driver": "Vettel"
+        },
+        {
+            "season": "2014",
+            "race": "japanese",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2015",
+            "race": "japanese",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2016",
+            "race": "japanese",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2017",
+            "race": "japanese",
+            "driver": "Hamilton"
+        }
+    ],
+    "indian": [
+        {
+            "season": "2013",
+            "race": "indian",
+            "driver": "Vettel"
+        }
+    ],
+    "abu-dhabi": [
+        {
+            "season": "2013",
+            "race": "abu-dhabi",
+            "driver": "Vettel"
+        },
+        {
+            "season": "2014",
+            "race": "abu-dhabi",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2015",
+            "race": "abu-dhabi",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2016",
+            "race": "abu-dhabi",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2017",
+            "race": "abu-dhabi",
+            "driver": "Bottas"
+        }
+    ],
+    "united-states": [
+        {
+            "season": "2013",
+            "race": "united-states",
+            "driver": "Vettel"
+        },
+        {
+            "season": "2014",
+            "race": "united-states",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2015",
+            "race": "united-states",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2016",
+            "race": "united-states",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2017",
+            "race": "united-states",
+            "driver": "Hamilton"
+        }
+    ],
+    "brazilian": [
+        {
+            "season": "2013",
+            "race": "brazilian",
+            "driver": "Vettel"
+        },
+        {
+            "season": "2014",
+            "race": "brazilian",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2015",
+            "race": "brazilian",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2016",
+            "race": "brazilian",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2017",
+            "race": "brazilian",
+            "driver": "Vettel"
+        }
+    ],
+    "austrian": [
+        {
+            "season": "2014",
+            "race": "austrian",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2015",
+            "race": "austrian",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2016",
+            "race": "austrian",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2017",
+            "race": "austrian",
+            "driver": "Bottas"
+        }
+    ],
+    "russian": [
+        {
+            "season": "2014",
+            "race": "russian",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2015",
+            "race": "russian",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2016",
+            "race": "russian",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2017",
+            "race": "russian",
+            "driver": "Bottas"
+        }
+    ],
+    "mexican": [
+        {
+            "season": "2015",
+            "race": "mexican",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2016",
+            "race": "mexican",
+            "driver": "Hamilton"
+        },
+        {
+            "season": "2017",
+            "race": "mexican",
+            "driver": "Verstappen"
+        }
+    ],
+    "european": [
+        {
+            "season": "2016",
+            "race": "european",
+            "driver": "Rosberg"
+        }
+    ],
+    "azerbaijan": [
+        {
+            "season": "2017",
+            "race": "azerbaijan",
+            "driver": "Ricciardo"
+        }
+    ]
+}

@@ -25,7 +25,7 @@ module.exports = roundIndex => {
     if (size(results) > 0) {
       obj.addButton("Race Results", `results ${roundIndex}`);
     } else {
-      // obj.addButton("Latest Winners", `winners ${roundIndex}`);
+      obj.addButton("Latest Winners", `winners ${roundIndex}`);
     }
 
     obj.addButton("Remaining races", "remaining");

@@ -1,8 +1,19 @@
-module.exports = data => {
-  const content = Object.keys(data.results)
+const currentSeason = require("../data/archive/2018/season");
+const latestWinners = require("../data/archive/latest-winners");
+
+module.exports = roundIndex => {
+  const data = latestWinners[currentSeason[roundIndex].slug];
+
+  const content = data
     .reverse()
-    .map(season => `${season}. ${data.results[season][0].Driver.familyName}`)
+    .map(item => `${item.season}. ${item.driver}`)
     .join("\n");
 
-  return `Latest ${data.raceName} winners:\n\n${content}`;
+  return new Promise(resolve =>
+    resolve(
+      `Latest ${currentSeason[roundIndex].title} Grand Prix Winners:\n\n${
+        content
+      }`
+    )
+  );
 };

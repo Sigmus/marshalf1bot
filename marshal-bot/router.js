@@ -43,7 +43,7 @@ module.exports = cmd => {
 
   aux = cmd.split("winners");
   if (aux.length === 2 && aux[1] !== "") {
-    return winners(data.rounds[parseInt(aux[1])]);
+    return winners(parseInt(aux[1]));
   }
   if (cmd === "next") {
     return round(0);

@@ -1,12 +1,17 @@
-module.exports = data => {
-  const content = data.results[2018]
-    .map(
-      item =>
-        `${item.position}. ${item.Driver.familyName} ${
-          item.Time ? "(" + item.Time.time + ")" : ""
-        }`
-    )
-    .join("\n");
+const fetchS3 = require("../data/fetch-s3");
+const currentSeason = require("../data/archive/2018/season");
 
-  return `${data.raceName} results:\n\n${content}`;
+module.exports = roundIndex => {
+  return fetchS3("2018/results.json").then(response => {
+    const content = response[roundIndex]
+      .map(
+        item =>
+          `${item.position}. ${item.Driver.familyName} ${
+            item.Time ? "(" + item.Time.time + ")" : ""
+          }`
+      )
+      .join("\n");
+
+    return `${currentSeason[roundIndex].title} Results:\n\n${content}`;
+  });
 };

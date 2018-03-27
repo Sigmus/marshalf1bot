@@ -1,25 +1,35 @@
 const { fbTemplate } = require("claudia-bot-builder");
 const size = require("lodash/size");
 const moment = require("moment");
+const fetchS3 = require("../data/fetch-s3");
+const currentSeason = require("../data/archive/2018/season");
 
-module.exports = (data, roundNumber) => {
-  const obj = new fbTemplate.Button(
-    `${data.raceName}\n${moment.unix(data.ts).format("MMM Do, LT")} – Round ${
-      data.round
-    }`
-  );
+module.exports = roundIndex => {
+  return Promise.all([
+    fetchS3("2018/qualifying.json"),
+    fetchS3("2018/results.json")
+  ]).then(response => {
+    const qualifying = response[0][roundIndex] ? response[0][roundIndex] : [];
+    const results = response[1][roundIndex] ? response[1][roundIndex] : [];
 
-  if (size(data.qualifying) > 0) {
-    obj.addButton("Qualifying", `qualifying ${roundNumber}`);
-  }
+    const obj = new fbTemplate.Button(
+      `${currentSeason[roundIndex].title}\n${moment
+        .unix(currentSeason[roundIndex].ts)
+        .format("MMM Do, LT")} – Round ${currentSeason[roundIndex].round}`
+    );
 
-  if (size(data.results) > 0 && data.results[2018]) {
-    obj.addButton("Race Results", `results ${roundNumber}`);
-  } else {
-    obj.addButton("Latest Winners", `winners ${roundNumber}`);
-  }
+    if (size(qualifying) > 0) {
+      obj.addButton("Qualifying", `qualifying ${roundIndex}`);
+    }
 
-  obj.addButton("Remaining races", "remaining");
+    if (size(results) > 0) {
+      obj.addButton("Race Results", `results ${roundIndex}`);
+    } else {
+      // obj.addButton("Latest Winners", `winners ${roundIndex}`);
+    }
 
-  return obj.get();
+    obj.addButton("Remaining races", "remaining");
+
+    return obj.get();
+  });
 };

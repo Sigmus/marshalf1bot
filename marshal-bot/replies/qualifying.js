@@ -1,13 +1,17 @@
-module.exports = data => {
-  // const round = data.rounds[roundNumber - 1]
-  const content = data.qualifying
-    .map(
-      item =>
-        `${item.position}. ${item.Driver.familyName} – ${item.Q3 ||
-          item.Q2 ||
-          item.Q1}`
-    )
-    .join("\n");
+const fetchS3 = require("../data/fetch-s3");
+const currentSeason = require("../data/archive/2018/season");
 
-  return `${data.raceName} Qualifying:\n\n${content}`;
+module.exports = roundIndex => {
+  return fetchS3("2018/qualifying.json").then(response => {
+    const content = response[roundIndex]
+      .map(
+        item =>
+          `${item.position}. ${item.Driver.familyName} – ${item.Q3 ||
+            item.Q2 ||
+            item.Q1}`
+      )
+      .join("\n");
+
+    return `${currentSeason[roundIndex].title} Qualifying:\n\n${content}`;
+  });
 };

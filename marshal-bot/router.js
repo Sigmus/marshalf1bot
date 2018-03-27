@@ -6,6 +6,21 @@ const qualifying = require("./replies/qualifying");
 const winners = require("./replies/winners");
 const round = require("./replies/round");
 
+const moment = require("moment");
+
+const currentSeason = require("./data/archive/2018/season");
+
+const getNextRounds = () => {
+  const now = moment()
+    .add(-3, "day")
+    .unix();
+  return currentSeason.filter((item, index) => {
+    return item.ts > now;
+  });
+};
+
+const getNextRoundIndex = () => parseInt(getNextRounds()[0].round, 10) - 1;
+
 module.exports = cmd => {
   let aux;
   let roundNumber;
@@ -20,10 +35,6 @@ module.exports = cmd => {
 
   if (cmd === "races" || cmd === "remaining") {
     return remaining();
-  }
-
-  if (cmd === "last results") {
-    return results(0);
   }
 
   aux = cmd.split("results");
@@ -46,7 +57,7 @@ module.exports = cmd => {
     return winners(parseInt(aux[1]));
   }
   if (cmd === "next") {
-    return round(0);
+    return round(getNextRoundIndex());
   }
 
   return "What?";

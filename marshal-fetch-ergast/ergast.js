@@ -1,5 +1,9 @@
+const _ = require("lodash");
 const moment = require("moment");
 const request = require("request");
+
+const title = raceName => raceName.replace(" Grand Prix", "");
+const slug = raceName => _.kebabCase(title(raceName));
 
 /*
  * Return a promise of an JSON API request
@@ -51,31 +55,39 @@ const constructorStandings = year => {
 
 const qualifying = year => {
   return endpoint(`${year}/qualifying`).then(response =>
-    response.MRData.RaceTable.Races.map(i =>
-      i.QualifyingResults.map(j => {
-        return {
-          position: j.position,
-          Q1: j.Q1,
-          Q2: j.Q2,
-          Q3: j.Q3,
-          Driver: { familyName: j.Driver.familyName }
-        };
-      })
-    )
+    response.MRData.RaceTable.Races.map(i => {
+      return {
+        title: title(i.raceName),
+        slug: slug(i.raceName),
+        qualifying: i.QualifyingResults.map(j => {
+          return {
+            position: j.position,
+            Q1: j.Q1,
+            Q2: j.Q2,
+            Q3: j.Q3,
+            Driver: { familyName: j.Driver.familyName }
+          };
+        })
+      };
+    })
   );
 };
 
 const results = year => {
   return endpoint(`${year}/results`).then(response =>
-    response.MRData.RaceTable.Races.map(i =>
-      i.Results.map(j => {
-        return {
-          position: j.position,
-          Time: j.Time,
-          Driver: { familyName: j.Driver.familyName }
-        };
-      })
-    )
+    response.MRData.RaceTable.Races.map(i => {
+      return {
+        title: title(i.raceName),
+        slug: slug(i.raceName),
+        results: i.Results.map(j => {
+          return {
+            position: j.position,
+            Time: j.Time,
+            Driver: { familyName: j.Driver.familyName }
+          };
+        })
+      };
+    })
   );
 };
 
@@ -84,7 +96,8 @@ const season = year => {
     return response.MRData.RaceTable.Races.map(i => {
       return {
         round: i.round,
-        title: i.raceName.replace(" Grand Prix", ""),
+        title: title(i.raceName),
+        slug: slug(i.raceName),
         ts: moment(`${i.date}T${i.time}`).unix()
       };
     });

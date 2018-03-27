@@ -2,106 +2,127 @@
     {
         "round": "1",
         "title": "Australian",
+        "slug": "australian",
         "ts": 1521954600
     },
     {
         "round": "2",
         "title": "Bahrain",
+        "slug": "bahrain",
         "ts": 1523200200
     },
     {
         "round": "3",
         "title": "Chinese",
+        "slug": "chinese",
         "ts": 1523772600
     },
     {
         "round": "4",
         "title": "Azerbaijan",
+        "slug": "azerbaijan",
         "ts": 1525003800
     },
     {
         "round": "5",
         "title": "Spanish",
+        "slug": "spanish",
         "ts": 1526217000
     },
     {
         "round": "6",
         "title": "Monaco",
+        "slug": "monaco",
         "ts": 1527426600
     },
     {
         "round": "7",
         "title": "Canadian",
+        "slug": "canadian",
         "ts": 1528654200
     },
     {
         "round": "8",
         "title": "French",
+        "slug": "french",
         "ts": 1529849400
     },
     {
         "round": "9",
         "title": "Austrian",
+        "slug": "austrian",
         "ts": 1530450600
     },
     {
         "round": "10",
         "title": "British",
+        "slug": "british",
         "ts": 1531055400
     },
     {
         "round": "11",
         "title": "German",
+        "slug": "german",
         "ts": 1532265000
     },
     {
         "round": "12",
         "title": "Hungarian",
+        "slug": "hungarian",
         "ts": 1532869800
     },
     {
         "round": "13",
         "title": "Belgian",
+        "slug": "belgian",
         "ts": 1535289000
     },
     {
         "round": "14",
         "title": "Italian",
+        "slug": "italian",
         "ts": 1535893800
     },
     {
         "round": "15",
         "title": "Singapore",
+        "slug": "singapore",
         "ts": 1537099800
     },
     {
         "round": "16",
         "title": "Russian",
+        "slug": "russian",
         "ts": 1538305800
     },
     {
         "round": "17",
         "title": "Japanese",
+        "slug": "japanese",
         "ts": 1538889000
     },
     {
         "round": "18",
         "title": "United States",
+        "slug": "united-states",
         "ts": 1540145400
     },
     {
         "round": "19",
         "title": "Mexican",
+        "slug": "mexican",
         "ts": 1540753800
     },
     {
         "round": "20",
         "title": "Brazilian",
+        "slug": "brazilian",
         "ts": 1541956200
     },
     {
         "round": "21",
         "title": "Abu Dhabi",
+        "slug": "abu-dhabi",
         "ts": 1543151400
     }
 ]

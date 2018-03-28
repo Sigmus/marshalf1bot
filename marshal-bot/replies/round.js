@@ -19,13 +19,13 @@ module.exports = roundIndex => {
     );
 
     if (size(qualifying) > 0) {
-      obj.addButton("Qualifying", `qualifying ${roundIndex}`);
+      obj.addButton("Qualifying", `qualifying ${roundIndex + 1}`);
     }
 
     if (size(results) > 0) {
-      obj.addButton("Race Results", `results ${roundIndex}`);
+      obj.addButton("Race Results", `results ${roundIndex + 1}`);
     } else {
-      obj.addButton("Latest Winners", `winners ${roundIndex}`);
+      obj.addButton("Latest Winners", `winners ${roundIndex + 1}`);
     }
 
     obj.addButton("Remaining races", "remaining");

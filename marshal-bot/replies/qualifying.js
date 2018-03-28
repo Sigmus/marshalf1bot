@@ -4,13 +4,10 @@ module.exports = roundIndex => {
   return fetchS3("2018/qualifying.json").then(response => {
     const content = response[roundIndex].qualifying
       .map(
-        item =>
-          `${item.position}. ${item.Driver.familyName} – ${item.Q3 ||
-            item.Q2 ||
-            item.Q1}`
+        item => `${item.pos}. ${item.driver} – ${item.q3 || item.q2 || item.q1}`
       )
       .join("\n");
 
-    return `${response[roundIndex].title} Qualifying:\n\n${content}`;
+    return `${response[roundIndex].title} Grand Prix Qualifying:\n\n${content}`;
   });
 };

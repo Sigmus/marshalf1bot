@@ -61,11 +61,11 @@ const qualifying = year => {
         slug: slug(i.raceName),
         qualifying: i.QualifyingResults.map(j => {
           return {
-            position: j.position,
-            Q1: j.Q1,
-            Q2: j.Q2,
-            Q3: j.Q3,
-            Driver: { familyName: j.Driver.familyName }
+            pos: j.position,
+            q1: j.Q1,
+            q2: j.Q2,
+            q3: j.Q3,
+            driver: j.Driver.familyName
           };
         })
       };

@@ -1,4 +1,4 @@
-const remaining = require("./replies/remaining");
+const races = require("./replies/races");
 const drivers = require("./replies/drivers");
 const constructors = require("./replies/constructors");
 const results = require("./replies/results");
@@ -38,8 +38,12 @@ module.exports = cmd => {
     return constructors();
   }
 
-  if (cmd === "races" || cmd === "remaining") {
-    return remaining();
+  if (cmd === "races") {
+    return races(0);
+  }
+
+  if (cmd === "remaining") {
+    return races(parseInt(getNextRounds()[0].round, 10) - 1);
   }
 
   if (cmd === "next") {

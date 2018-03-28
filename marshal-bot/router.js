@@ -11,15 +11,20 @@ const moment = require("moment");
 const currentSeason = require("./data/archive/2018/season");
 
 const getNextRounds = () => {
-  const now = moment()
-    .add(-3, "day")
-    .unix();
+  const now = moment().unix();
   return currentSeason.filter((item, index) => {
     return item.ts > now;
   });
 };
 
-const getNextRoundIndex = () => parseInt(getNextRounds()[0].round, 10) - 1;
+const getPrevRounds = () => {
+  const now = moment().unix();
+  return currentSeason
+    .filter((item, index) => {
+      return item.ts < now;
+    })
+    .reverse();
+};
 
 module.exports = cmd => {
   let aux;
@@ -37,27 +42,32 @@ module.exports = cmd => {
     return remaining();
   }
 
+  if (cmd === "next") {
+    return round(parseInt(getNextRounds()[0].round, 10) - 1);
+  }
+
+  if (cmd == "last results") {
+    return results(parseInt(getPrevRounds()[0].round, 10) - 1);
+  }
+
   aux = cmd.split("results");
   if (aux.length === 2 && aux[1] !== "") {
-    return results(parseInt(aux[1]));
+    return results(parseInt(aux[1]) - 1);
   }
 
   aux = cmd.split("qualifying");
   if (aux.length === 2 && aux[1] !== "") {
-    return qualifying(parseInt(aux[1]));
+    return qualifying(parseInt(aux[1]) - 1);
   }
 
   aux = cmd.split("round");
   if (aux.length === 2 && aux[1] !== "") {
-    return round(parseInt(aux[1]));
+    return round(parseInt(aux[1]) - 1);
   }
 
   aux = cmd.split("winners");
   if (aux.length === 2 && aux[1] !== "") {
-    return winners(parseInt(aux[1]));
-  }
-  if (cmd === "next") {
-    return round(getNextRoundIndex());
+    return winners(parseInt(aux[1]) - 1);
   }
 
   return "What?";

@@ -31,9 +31,9 @@ const driverStandings = year => {
   return endpoint(`${year}/driverStandings`).then(response =>
     response.MRData.StandingsTable.StandingsLists[0].DriverStandings.map(i => {
       return {
-        position: i.position,
+        pos: i.position,
         points: i.points,
-        Driver: { familyName: i.Driver.familyName }
+        driver: i.Driver.familyName
       };
     })
   );

@@ -44,9 +44,9 @@ const constructorStandings = year => {
     response.MRData.StandingsTable.StandingsLists[0].ConstructorStandings.map(
       i => {
         return {
-          position: i.position,
+          pos: i.position,
           points: i.points,
-          Constructor: { name: i.Constructor.name }
+          team: i.Constructor.name
         };
       }
     )

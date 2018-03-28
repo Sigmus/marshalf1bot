@@ -1,3 +1,4 @@
+const { fbTemplate } = require("claudia-bot-builder");
 const fetchS3 = require("../data/fetch-s3");
 
 module.exports = () => {
@@ -6,6 +7,14 @@ module.exports = () => {
       .map(row => `${row.pos}. ${row.driver} – ${row.points}`)
       .join("\n");
 
-    return `2018 Driver's Championship:\n\n${content}`;
+    const newMessage = new fbTemplate.Text(
+      `2018 Driver's Championship:\n\n${content}`
+    );
+
+    newMessage.addQuickReply("Constructors", "constructors");
+
+    return newMessage.get();
   });
 };
+
+

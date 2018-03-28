@@ -5,8 +5,8 @@ module.exports = roundIndex => {
     const content = response[roundIndex].results
       .map(
         item =>
-          `${item.position}. ${item.Driver.familyName} ${
-            item.Time ? "(" + item.Time.time + ")" : ""
+          `${item.pos}. ${item.driver} ${
+            item.time ? "(" + item.time + ")" : ""
           }`
       )
       .join("\n");

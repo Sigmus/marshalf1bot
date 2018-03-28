@@ -80,11 +80,14 @@ const results = year => {
         title: title(i.raceName),
         slug: slug(i.raceName),
         results: i.Results.map(j => {
-          return {
-            position: j.position,
-            Time: j.Time,
-            Driver: { familyName: j.Driver.familyName }
+          const result = {
+            pos: j.position,
+            driver: j.Driver.familyName
           };
+          if (j.Time) {
+            result.time = j.Time.time;
+          }
+          return result;
         })
       };
     })

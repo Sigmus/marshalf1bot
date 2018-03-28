@@ -4,184 +4,104 @@
         "slug": "australian",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "5403225",
-                    "time": "1:30:03.225"
-                },
-                "Driver": {
-                    "familyName": "Räikkönen"
-                }
+                "pos": "1",
+                "driver": "Räikkönen",
+                "time": "1:30:03.225"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "5415676",
-                    "time": "+12.451"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "2",
+                "driver": "Alonso",
+                "time": "+12.451"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "5425571",
-                    "time": "+22.346"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "3",
+                "driver": "Vettel",
+                "time": "+22.346"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "5436802",
-                    "time": "+33.577"
-                },
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "4",
+                "driver": "Massa",
+                "time": "+33.577"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "5448786",
-                    "time": "+45.561"
-                },
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "5",
+                "driver": "Hamilton",
+                "time": "+45.561"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "5450025",
-                    "time": "+46.800"
-                },
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "6",
+                "driver": "Webber",
+                "time": "+46.800"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "5468293",
-                    "time": "+1:05.068"
-                },
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "7",
+                "driver": "Sutil",
+                "time": "+1:05.068"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "5471674",
-                    "time": "+1:08.449"
-                },
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "8",
+                "driver": "di Resta",
+                "time": "+1:08.449"
             },
             {
-                "position": "9",
-                "Time": {
-                    "millis": "5484855",
-                    "time": "+1:21.630"
-                },
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "9",
+                "driver": "Button",
+                "time": "+1:21.630"
             },
             {
-                "position": "10",
-                "Time": {
-                    "millis": "5485984",
-                    "time": "+1:22.759"
-                },
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "10",
+                "driver": "Grosjean",
+                "time": "+1:22.759"
             },
             {
-                "position": "11",
-                "Time": {
-                    "millis": "5486592",
-                    "time": "+1:23.367"
-                },
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "11",
+                "driver": "Pérez",
+                "time": "+1:23.367"
             },
             {
-                "position": "12",
-                "Time": {
-                    "millis": "5487082",
-                    "time": "+1:23.857"
-                },
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "12",
+                "driver": "Vergne",
+                "time": "+1:23.857"
             },
             {
-                "position": "13",
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "13",
+                "driver": "Gutiérrez"
             },
             {
-                "position": "14",
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "14",
+                "driver": "Bottas"
             },
             {
-                "position": "15",
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "15",
+                "driver": "Bianchi"
             },
             {
-                "position": "16",
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "16",
+                "driver": "Pic"
             },
             {
-                "position": "17",
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "17",
+                "driver": "Chilton"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "18",
+                "driver": "van der Garde"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "19",
+                "driver": "Ricciardo"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "20",
+                "driver": "Rosberg"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "21",
+                "driver": "Maldonado"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "22",
+                "driver": "Hülkenberg"
             }
         ]
     },
@@ -190,180 +110,103 @@
         "slug": "malaysian",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "5936681",
-                    "time": "1:38:56.681"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "1",
+                "driver": "Vettel",
+                "time": "1:38:56.681"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "5940979",
-                    "time": "+4.298"
-                },
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "2",
+                "driver": "Webber",
+                "time": "+4.298"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "5948862",
-                    "time": "+12.181"
-                },
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "3",
+                "driver": "Hamilton",
+                "time": "+12.181"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "5949321",
-                    "time": "+12.640"
-                },
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "4",
+                "driver": "Rosberg",
+                "time": "+12.640"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "5962329",
-                    "time": "+25.648"
-                },
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "5",
+                "driver": "Massa",
+                "time": "+25.648"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "5972245",
-                    "time": "+35.564"
-                },
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "6",
+                "driver": "Grosjean",
+                "time": "+35.564"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "5985160",
-                    "time": "+48.479"
-                },
-                "Driver": {
-                    "familyName": "Räikkönen"
-                }
+                "pos": "7",
+                "driver": "Räikkönen",
+                "time": "+48.479"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "5989725",
-                    "time": "+53.044"
-                },
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "8",
+                "driver": "Hülkenberg",
+                "time": "+53.044"
             },
             {
-                "position": "9",
-                "Time": {
-                    "millis": "6009038",
-                    "time": "+1:12.357"
-                },
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "9",
+                "driver": "Pérez",
+                "time": "+1:12.357"
             },
             {
-                "position": "10",
-                "Time": {
-                    "millis": "6023805",
-                    "time": "+1:27.124"
-                },
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "10",
+                "driver": "Vergne",
+                "time": "+1:27.124"
             },
             {
-                "position": "11",
-                "Time": {
-                    "millis": "6025291",
-                    "time": "+1:28.610"
-                },
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "11",
+                "driver": "Bottas",
+                "time": "+1:28.610"
             },
             {
-                "position": "12",
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "12",
+                "driver": "Gutiérrez"
             },
             {
-                "position": "13",
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "13",
+                "driver": "Bianchi"
             },
             {
-                "position": "14",
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "14",
+                "driver": "Pic"
             },
             {
-                "position": "15",
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "15",
+                "driver": "van der Garde"
             },
             {
-                "position": "16",
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "16",
+                "driver": "Chilton"
             },
             {
-                "position": "17",
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "17",
+                "driver": "Button"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "18",
+                "driver": "Ricciardo"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "19",
+                "driver": "Maldonado"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "20",
+                "driver": "Sutil"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "21",
+                "driver": "di Resta"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "22",
+                "driver": "Alonso"
             }
         ]
     },
@@ -372,192 +215,106 @@
         "slug": "chinese",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "5786945",
-                    "time": "1:36:26.945"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "1",
+                "driver": "Alonso",
+                "time": "1:36:26.945"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "5797113",
-                    "time": "+10.168"
-                },
-                "Driver": {
-                    "familyName": "Räikkönen"
-                }
+                "pos": "2",
+                "driver": "Räikkönen",
+                "time": "+10.168"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "5799267",
-                    "time": "+12.322"
-                },
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "3",
+                "driver": "Hamilton",
+                "time": "+12.322"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "5799470",
-                    "time": "+12.525"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "4",
+                "driver": "Vettel",
+                "time": "+12.525"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "5822230",
-                    "time": "+35.285"
-                },
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "5",
+                "driver": "Button",
+                "time": "+35.285"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "5827772",
-                    "time": "+40.827"
-                },
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "6",
+                "driver": "Massa",
+                "time": "+40.827"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "5829636",
-                    "time": "+42.691"
-                },
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "7",
+                "driver": "Ricciardo",
+                "time": "+42.691"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "5838029",
-                    "time": "+51.084"
-                },
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "8",
+                "driver": "di Resta",
+                "time": "+51.084"
             },
             {
-                "position": "9",
-                "Time": {
-                    "millis": "5840368",
-                    "time": "+53.423"
-                },
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "9",
+                "driver": "Grosjean",
+                "time": "+53.423"
             },
             {
-                "position": "10",
-                "Time": {
-                    "millis": "5843543",
-                    "time": "+56.598"
-                },
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "10",
+                "driver": "Hülkenberg",
+                "time": "+56.598"
             },
             {
-                "position": "11",
-                "Time": {
-                    "millis": "5850805",
-                    "time": "+1:03.860"
-                },
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "11",
+                "driver": "Pérez",
+                "time": "+1:03.860"
             },
             {
-                "position": "12",
-                "Time": {
-                    "millis": "5859549",
-                    "time": "+1:12.604"
-                },
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "12",
+                "driver": "Vergne",
+                "time": "+1:12.604"
             },
             {
-                "position": "13",
-                "Time": {
-                    "millis": "5880806",
-                    "time": "+1:33.861"
-                },
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "13",
+                "driver": "Bottas",
+                "time": "+1:33.861"
             },
             {
-                "position": "14",
-                "Time": {
-                    "millis": "5882398",
-                    "time": "+1:35.453"
-                },
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "14",
+                "driver": "Maldonado",
+                "time": "+1:35.453"
             },
             {
-                "position": "15",
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "15",
+                "driver": "Bianchi"
             },
             {
-                "position": "16",
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "16",
+                "driver": "Pic"
             },
             {
-                "position": "17",
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "17",
+                "driver": "Chilton"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "18",
+                "driver": "van der Garde"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "19",
+                "driver": "Rosberg"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "20",
+                "driver": "Webber"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "21",
+                "driver": "Sutil"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "22",
+                "driver": "Gutiérrez"
             }
         ]
     },
@@ -566,196 +323,107 @@
         "slug": "bahrain",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "5760498",
-                    "time": "1:36:00.498"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "1",
+                "driver": "Vettel",
+                "time": "1:36:00.498"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "5769609",
-                    "time": "+9.111"
-                },
-                "Driver": {
-                    "familyName": "Räikkönen"
-                }
+                "pos": "2",
+                "driver": "Räikkönen",
+                "time": "+9.111"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "5780005",
-                    "time": "+19.507"
-                },
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "3",
+                "driver": "Grosjean",
+                "time": "+19.507"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "5782225",
-                    "time": "+21.727"
-                },
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "4",
+                "driver": "di Resta",
+                "time": "+21.727"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "5795728",
-                    "time": "+35.230"
-                },
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "5",
+                "driver": "Hamilton",
+                "time": "+35.230"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "5796496",
-                    "time": "+35.998"
-                },
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "6",
+                "driver": "Pérez",
+                "time": "+35.998"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "5797742",
-                    "time": "+37.244"
-                },
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "7",
+                "driver": "Webber",
+                "time": "+37.244"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "5798072",
-                    "time": "+37.574"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "8",
+                "driver": "Alonso",
+                "time": "+37.574"
             },
             {
-                "position": "9",
-                "Time": {
-                    "millis": "5801624",
-                    "time": "+41.126"
-                },
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "9",
+                "driver": "Rosberg",
+                "time": "+41.126"
             },
             {
-                "position": "10",
-                "Time": {
-                    "millis": "5807129",
-                    "time": "+46.631"
-                },
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "10",
+                "driver": "Button",
+                "time": "+46.631"
             },
             {
-                "position": "11",
-                "Time": {
-                    "millis": "5826948",
-                    "time": "+1:06.450"
-                },
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "11",
+                "driver": "Maldonado",
+                "time": "+1:06.450"
             },
             {
-                "position": "12",
-                "Time": {
-                    "millis": "5833431",
-                    "time": "+1:12.933"
-                },
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "12",
+                "driver": "Hülkenberg",
+                "time": "+1:12.933"
             },
             {
-                "position": "13",
-                "Time": {
-                    "millis": "5837217",
-                    "time": "+1:16.719"
-                },
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "13",
+                "driver": "Sutil",
+                "time": "+1:16.719"
             },
             {
-                "position": "14",
-                "Time": {
-                    "millis": "5842009",
-                    "time": "+1:21.511"
-                },
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "14",
+                "driver": "Bottas",
+                "time": "+1:21.511"
             },
             {
-                "position": "15",
-                "Time": {
-                    "millis": "5846862",
-                    "time": "+1:26.364"
-                },
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "15",
+                "driver": "Massa",
+                "time": "+1:26.364"
             },
             {
-                "position": "16",
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "16",
+                "driver": "Ricciardo"
             },
             {
-                "position": "17",
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "17",
+                "driver": "Pic"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "18",
+                "driver": "Gutiérrez"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "19",
+                "driver": "Bianchi"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "20",
+                "driver": "Chilton"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "21",
+                "driver": "van der Garde"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "22",
+                "driver": "Vergne"
             }
         ]
     },
@@ -764,172 +432,101 @@
         "slug": "spanish",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "5956596",
-                    "time": "1:39:16.596"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "1",
+                "driver": "Alonso",
+                "time": "1:39:16.596"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "5965934",
-                    "time": "+9.338"
-                },
-                "Driver": {
-                    "familyName": "Räikkönen"
-                }
+                "pos": "2",
+                "driver": "Räikkönen",
+                "time": "+9.338"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "5982645",
-                    "time": "+26.049"
-                },
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "3",
+                "driver": "Massa",
+                "time": "+26.049"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "5994869",
-                    "time": "+38.273"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "4",
+                "driver": "Vettel",
+                "time": "+38.273"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "6004559",
-                    "time": "+47.963"
-                },
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "5",
+                "driver": "Webber",
+                "time": "+47.963"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "6024616",
-                    "time": "+1:08.020"
-                },
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "6",
+                "driver": "Rosberg",
+                "time": "+1:08.020"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "6025584",
-                    "time": "+1:08.988"
-                },
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "7",
+                "driver": "di Resta",
+                "time": "+1:08.988"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "6036102",
-                    "time": "+1:19.506"
-                },
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "8",
+                "driver": "Button",
+                "time": "+1:19.506"
             },
             {
-                "position": "9",
-                "Time": {
-                    "millis": "6038334",
-                    "time": "+1:21.738"
-                },
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "9",
+                "driver": "Pérez",
+                "time": "+1:21.738"
             },
             {
-                "position": "10",
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "10",
+                "driver": "Ricciardo"
             },
             {
-                "position": "11",
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "11",
+                "driver": "Gutiérrez"
             },
             {
-                "position": "12",
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "12",
+                "driver": "Hamilton"
             },
             {
-                "position": "13",
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "13",
+                "driver": "Sutil"
             },
             {
-                "position": "14",
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "14",
+                "driver": "Maldonado"
             },
             {
-                "position": "15",
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "15",
+                "driver": "Hülkenberg"
             },
             {
-                "position": "16",
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "16",
+                "driver": "Bottas"
             },
             {
-                "position": "17",
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "17",
+                "driver": "Pic"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "18",
+                "driver": "Bianchi"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "19",
+                "driver": "Chilton"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "20",
+                "driver": "Vergne"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "21",
+                "driver": "van der Garde"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "22",
+                "driver": "Grosjean"
             }
         ]
     },
@@ -938,196 +535,107 @@
         "slug": "monaco",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "8272056",
-                    "time": "2:17:52.056"
-                },
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "1",
+                "driver": "Rosberg",
+                "time": "2:17:52.056"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "8275944",
-                    "time": "+3.888"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "2",
+                "driver": "Vettel",
+                "time": "+3.888"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "8278370",
-                    "time": "+6.314"
-                },
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "3",
+                "driver": "Webber",
+                "time": "+6.314"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "8285950",
-                    "time": "+13.894"
-                },
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "4",
+                "driver": "Hamilton",
+                "time": "+13.894"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "8293533",
-                    "time": "+21.477"
-                },
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "5",
+                "driver": "Sutil",
+                "time": "+21.477"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "8295159",
-                    "time": "+23.103"
-                },
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "6",
+                "driver": "Button",
+                "time": "+23.103"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "8298790",
-                    "time": "+26.734"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "7",
+                "driver": "Alonso",
+                "time": "+26.734"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "8299279",
-                    "time": "+27.223"
-                },
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "8",
+                "driver": "Vergne",
+                "time": "+27.223"
             },
             {
-                "position": "9",
-                "Time": {
-                    "millis": "8299664",
-                    "time": "+27.608"
-                },
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "9",
+                "driver": "di Resta",
+                "time": "+27.608"
             },
             {
-                "position": "10",
-                "Time": {
-                    "millis": "8308638",
-                    "time": "+36.582"
-                },
-                "Driver": {
-                    "familyName": "Räikkönen"
-                }
+                "pos": "10",
+                "driver": "Räikkönen",
+                "time": "+36.582"
             },
             {
-                "position": "11",
-                "Time": {
-                    "millis": "8314628",
-                    "time": "+42.572"
-                },
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "11",
+                "driver": "Hülkenberg",
+                "time": "+42.572"
             },
             {
-                "position": "12",
-                "Time": {
-                    "millis": "8314747",
-                    "time": "+42.691"
-                },
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "12",
+                "driver": "Bottas",
+                "time": "+42.691"
             },
             {
-                "position": "13",
-                "Time": {
-                    "millis": "8315268",
-                    "time": "+43.212"
-                },
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "13",
+                "driver": "Gutiérrez",
+                "time": "+43.212"
             },
             {
-                "position": "14",
-                "Time": {
-                    "millis": "8321941",
-                    "time": "+49.885"
-                },
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "14",
+                "driver": "Chilton",
+                "time": "+49.885"
             },
             {
-                "position": "15",
-                "Time": {
-                    "millis": "8334646",
-                    "time": "+1:02.590"
-                },
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "15",
+                "driver": "van der Garde",
+                "time": "+1:02.590"
             },
             {
-                "position": "16",
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "16",
+                "driver": "Pérez"
             },
             {
-                "position": "17",
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "17",
+                "driver": "Grosjean"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "18",
+                "driver": "Ricciardo"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "19",
+                "driver": "Bianchi"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "20",
+                "driver": "Maldonado"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "21",
+                "driver": "Massa"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "22",
+                "driver": "Pic"
             }
         ]
     },
@@ -1136,156 +644,97 @@
         "slug": "canadian",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "5529143",
-                    "time": "1:32:09.143"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "1",
+                "driver": "Vettel",
+                "time": "1:32:09.143"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "5543551",
-                    "time": "+14.408"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "2",
+                "driver": "Alonso",
+                "time": "+14.408"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "5545085",
-                    "time": "+15.942"
-                },
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "3",
+                "driver": "Hamilton",
+                "time": "+15.942"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "5554874",
-                    "time": "+25.731"
-                },
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "4",
+                "driver": "Webber",
+                "time": "+25.731"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "5598868",
-                    "time": "+1:09.725"
-                },
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "5",
+                "driver": "Rosberg",
+                "time": "+1:09.725"
             },
             {
-                "position": "6",
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "6",
+                "driver": "Vergne"
             },
             {
-                "position": "7",
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "7",
+                "driver": "di Resta"
             },
             {
-                "position": "8",
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "8",
+                "driver": "Massa"
             },
             {
-                "position": "9",
-                "Driver": {
-                    "familyName": "Räikkönen"
-                }
+                "pos": "9",
+                "driver": "Räikkönen"
             },
             {
-                "position": "10",
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "10",
+                "driver": "Sutil"
             },
             {
-                "position": "11",
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "11",
+                "driver": "Pérez"
             },
             {
-                "position": "12",
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "12",
+                "driver": "Button"
             },
             {
-                "position": "13",
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "13",
+                "driver": "Grosjean"
             },
             {
-                "position": "14",
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "14",
+                "driver": "Bottas"
             },
             {
-                "position": "15",
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "15",
+                "driver": "Ricciardo"
             },
             {
-                "position": "16",
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "16",
+                "driver": "Maldonado"
             },
             {
-                "position": "17",
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "17",
+                "driver": "Bianchi"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "18",
+                "driver": "Pic"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "19",
+                "driver": "Chilton"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "20",
+                "driver": "Gutiérrez"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "21",
+                "driver": "Hülkenberg"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "22",
+                "driver": "van der Garde"
             }
         ]
     },
@@ -1294,208 +743,110 @@
         "slug": "british",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "5579456",
-                    "time": "1:32:59.456"
-                },
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "1",
+                "driver": "Rosberg",
+                "time": "1:32:59.456"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "5580221",
-                    "time": "+0.765"
-                },
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "2",
+                "driver": "Webber",
+                "time": "+0.765"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "5586580",
-                    "time": "+7.124"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "3",
+                "driver": "Alonso",
+                "time": "+7.124"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "5587212",
-                    "time": "+7.756"
-                },
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "4",
+                "driver": "Hamilton",
+                "time": "+7.756"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "5590713",
-                    "time": "+11.257"
-                },
-                "Driver": {
-                    "familyName": "Räikkönen"
-                }
+                "pos": "5",
+                "driver": "Räikkönen",
+                "time": "+11.257"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "5594029",
-                    "time": "+14.573"
-                },
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "6",
+                "driver": "Massa",
+                "time": "+14.573"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "5595791",
-                    "time": "+16.335"
-                },
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "7",
+                "driver": "Sutil",
+                "time": "+16.335"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "5595999",
-                    "time": "+16.543"
-                },
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "8",
+                "driver": "Ricciardo",
+                "time": "+16.543"
             },
             {
-                "position": "9",
-                "Time": {
-                    "millis": "5597399",
-                    "time": "+17.943"
-                },
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "9",
+                "driver": "di Resta",
+                "time": "+17.943"
             },
             {
-                "position": "10",
-                "Time": {
-                    "millis": "5599165",
-                    "time": "+19.709"
-                },
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "10",
+                "driver": "Hülkenberg",
+                "time": "+19.709"
             },
             {
-                "position": "11",
-                "Time": {
-                    "millis": "5600591",
-                    "time": "+21.135"
-                },
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "11",
+                "driver": "Maldonado",
+                "time": "+21.135"
             },
             {
-                "position": "12",
-                "Time": {
-                    "millis": "5604550",
-                    "time": "+25.094"
-                },
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "12",
+                "driver": "Bottas",
+                "time": "+25.094"
             },
             {
-                "position": "13",
-                "Time": {
-                    "millis": "5605425",
-                    "time": "+25.969"
-                },
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "13",
+                "driver": "Button",
+                "time": "+25.969"
             },
             {
-                "position": "14",
-                "Time": {
-                    "millis": "5605741",
-                    "time": "+26.285"
-                },
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "14",
+                "driver": "Gutiérrez",
+                "time": "+26.285"
             },
             {
-                "position": "15",
-                "Time": {
-                    "millis": "5611069",
-                    "time": "+31.613"
-                },
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "15",
+                "driver": "Pic",
+                "time": "+31.613"
             },
             {
-                "position": "16",
-                "Time": {
-                    "millis": "5615553",
-                    "time": "+36.097"
-                },
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "16",
+                "driver": "Bianchi",
+                "time": "+36.097"
             },
             {
-                "position": "17",
-                "Time": {
-                    "millis": "5647116",
-                    "time": "+1:07.660"
-                },
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "17",
+                "driver": "Chilton",
+                "time": "+1:07.660"
             },
             {
-                "position": "18",
-                "Time": {
-                    "millis": "5647215",
-                    "time": "+1:07.759"
-                },
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "18",
+                "driver": "van der Garde",
+                "time": "+1:07.759"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "19",
+                "driver": "Grosjean"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "20",
+                "driver": "Pérez"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "21",
+                "driver": "Vettel"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "22",
+                "driver": "Vergne"
             }
         ]
     },
@@ -1504,196 +855,107 @@
         "slug": "german",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "6074711",
-                    "time": "1:41:14.711"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "1",
+                "driver": "Vettel",
+                "time": "1:41:14.711"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "6075719",
-                    "time": "+1.008"
-                },
-                "Driver": {
-                    "familyName": "Räikkönen"
-                }
+                "pos": "2",
+                "driver": "Räikkönen",
+                "time": "+1.008"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "6080541",
-                    "time": "+5.830"
-                },
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "3",
+                "driver": "Grosjean",
+                "time": "+5.830"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "6082432",
-                    "time": "+7.721"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "4",
+                "driver": "Alonso",
+                "time": "+7.721"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "6101638",
-                    "time": "+26.927"
-                },
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "5",
+                "driver": "Hamilton",
+                "time": "+26.927"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "6102707",
-                    "time": "+27.996"
-                },
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "6",
+                "driver": "Button",
+                "time": "+27.996"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "6112273",
-                    "time": "+37.562"
-                },
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "7",
+                "driver": "Webber",
+                "time": "+37.562"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "6113017",
-                    "time": "+38.306"
-                },
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "8",
+                "driver": "Pérez",
+                "time": "+38.306"
             },
             {
-                "position": "9",
-                "Time": {
-                    "millis": "6121532",
-                    "time": "+46.821"
-                },
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "9",
+                "driver": "Rosberg",
+                "time": "+46.821"
             },
             {
-                "position": "10",
-                "Time": {
-                    "millis": "6124603",
-                    "time": "+49.892"
-                },
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "10",
+                "driver": "Hülkenberg",
+                "time": "+49.892"
             },
             {
-                "position": "11",
-                "Time": {
-                    "millis": "6128482",
-                    "time": "+53.771"
-                },
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "11",
+                "driver": "di Resta",
+                "time": "+53.771"
             },
             {
-                "position": "12",
-                "Time": {
-                    "millis": "6131686",
-                    "time": "+56.975"
-                },
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "12",
+                "driver": "Ricciardo",
+                "time": "+56.975"
             },
             {
-                "position": "13",
-                "Time": {
-                    "millis": "6132449",
-                    "time": "+57.738"
-                },
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "13",
+                "driver": "Sutil",
+                "time": "+57.738"
             },
             {
-                "position": "14",
-                "Time": {
-                    "millis": "6134871",
-                    "time": "+1:00.160"
-                },
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "14",
+                "driver": "Gutiérrez",
+                "time": "+1:00.160"
             },
             {
-                "position": "15",
-                "Time": {
-                    "millis": "6136640",
-                    "time": "+1:01.929"
-                },
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "15",
+                "driver": "Maldonado",
+                "time": "+1:01.929"
             },
             {
-                "position": "16",
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "16",
+                "driver": "Bottas"
             },
             {
-                "position": "17",
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "17",
+                "driver": "Pic"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "18",
+                "driver": "van der Garde"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "19",
+                "driver": "Chilton"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "20",
+                "driver": "Vergne"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "21",
+                "driver": "Bianchi"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "22",
+                "driver": "Massa"
             }
         ]
     },
@@ -1702,168 +964,100 @@
         "slug": "hungarian",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "6149445",
-                    "time": "1:42:29.445"
-                },
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "1",
+                "driver": "Hamilton",
+                "time": "1:42:29.445"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "6160383",
-                    "time": "+10.938"
-                },
-                "Driver": {
-                    "familyName": "Räikkönen"
-                }
+                "pos": "2",
+                "driver": "Räikkönen",
+                "time": "+10.938"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "6161904",
-                    "time": "+12.459"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "3",
+                "driver": "Vettel",
+                "time": "+12.459"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "6167489",
-                    "time": "+18.044"
-                },
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "4",
+                "driver": "Webber",
+                "time": "+18.044"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "6180856",
-                    "time": "+31.411"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "5",
+                "driver": "Alonso",
+                "time": "+31.411"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "6201740",
-                    "time": "+52.295"
-                },
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "6",
+                "driver": "Grosjean",
+                "time": "+52.295"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "6203264",
-                    "time": "+53.819"
-                },
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "7",
+                "driver": "Button",
+                "time": "+53.819"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "6205892",
-                    "time": "+56.447"
-                },
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "8",
+                "driver": "Massa",
+                "time": "+56.447"
             },
             {
-                "position": "9",
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "9",
+                "driver": "Pérez"
             },
             {
-                "position": "10",
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "10",
+                "driver": "Maldonado"
             },
             {
-                "position": "11",
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "11",
+                "driver": "Hülkenberg"
             },
             {
-                "position": "12",
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "12",
+                "driver": "Vergne"
             },
             {
-                "position": "13",
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "13",
+                "driver": "Ricciardo"
             },
             {
-                "position": "14",
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "14",
+                "driver": "van der Garde"
             },
             {
-                "position": "15",
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "15",
+                "driver": "Pic"
             },
             {
-                "position": "16",
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "16",
+                "driver": "Bianchi"
             },
             {
-                "position": "17",
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "17",
+                "driver": "Chilton"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "18",
+                "driver": "di Resta"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "19",
+                "driver": "Rosberg"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "20",
+                "driver": "Bottas"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "21",
+                "driver": "Gutiérrez"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "22",
+                "driver": "Sutil"
             }
         ]
     },
@@ -1872,196 +1066,107 @@
         "slug": "belgian",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "5022196",
-                    "time": "1:23:42.196"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "1",
+                "driver": "Vettel",
+                "time": "1:23:42.196"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "5039065",
-                    "time": "+16.869"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "2",
+                "driver": "Alonso",
+                "time": "+16.869"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "5049930",
-                    "time": "+27.734"
-                },
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "3",
+                "driver": "Hamilton",
+                "time": "+27.734"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "5052068",
-                    "time": "+29.872"
-                },
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "4",
+                "driver": "Rosberg",
+                "time": "+29.872"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "5056041",
-                    "time": "+33.845"
-                },
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "5",
+                "driver": "Webber",
+                "time": "+33.845"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "5062990",
-                    "time": "+40.794"
-                },
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "6",
+                "driver": "Button",
+                "time": "+40.794"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "5076118",
-                    "time": "+53.922"
-                },
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "7",
+                "driver": "Massa",
+                "time": "+53.922"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "5078042",
-                    "time": "+55.846"
-                },
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "8",
+                "driver": "Grosjean",
+                "time": "+55.846"
             },
             {
-                "position": "9",
-                "Time": {
-                    "millis": "5091743",
-                    "time": "+1:09.547"
-                },
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "9",
+                "driver": "Sutil",
+                "time": "+1:09.547"
             },
             {
-                "position": "10",
-                "Time": {
-                    "millis": "5095666",
-                    "time": "+1:13.470"
-                },
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "10",
+                "driver": "Ricciardo",
+                "time": "+1:13.470"
             },
             {
-                "position": "11",
-                "Time": {
-                    "millis": "5104132",
-                    "time": "+1:21.936"
-                },
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "11",
+                "driver": "Pérez",
+                "time": "+1:21.936"
             },
             {
-                "position": "12",
-                "Time": {
-                    "millis": "5108936",
-                    "time": "+1:26.740"
-                },
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "12",
+                "driver": "Vergne",
+                "time": "+1:26.740"
             },
             {
-                "position": "13",
-                "Time": {
-                    "millis": "5110454",
-                    "time": "+1:28.258"
-                },
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "13",
+                "driver": "Hülkenberg",
+                "time": "+1:28.258"
             },
             {
-                "position": "14",
-                "Time": {
-                    "millis": "5122632",
-                    "time": "+1:40.436"
-                },
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "14",
+                "driver": "Gutiérrez",
+                "time": "+1:40.436"
             },
             {
-                "position": "15",
-                "Time": {
-                    "millis": "5129652",
-                    "time": "+1:47.456"
-                },
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "15",
+                "driver": "Bottas",
+                "time": "+1:47.456"
             },
             {
-                "position": "16",
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "16",
+                "driver": "van der Garde"
             },
             {
-                "position": "17",
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "17",
+                "driver": "Maldonado"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "18",
+                "driver": "Bianchi"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "19",
+                "driver": "Chilton"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "20",
+                "driver": "di Resta"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "Räikkönen"
-                }
+                "pos": "21",
+                "driver": "Räikkönen"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "22",
+                "driver": "Pic"
             }
         ]
     },
@@ -2070,196 +1175,107 @@
         "slug": "italian",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "4713352",
-                    "time": "1:18:33.352"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "1",
+                "driver": "Vettel",
+                "time": "1:18:33.352"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "4718819",
-                    "time": "+5.467"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "2",
+                "driver": "Alonso",
+                "time": "+5.467"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "4719702",
-                    "time": "+6.350"
-                },
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "3",
+                "driver": "Webber",
+                "time": "+6.350"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "4722713",
-                    "time": "+9.361"
-                },
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "4",
+                "driver": "Massa",
+                "time": "+9.361"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "4723707",
-                    "time": "+10.355"
-                },
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "5",
+                "driver": "Hülkenberg",
+                "time": "+10.355"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "4724351",
-                    "time": "+10.999"
-                },
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "6",
+                "driver": "Rosberg",
+                "time": "+10.999"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "4745681",
-                    "time": "+32.329"
-                },
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "7",
+                "driver": "Ricciardo",
+                "time": "+32.329"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "4746482",
-                    "time": "+33.130"
-                },
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "8",
+                "driver": "Grosjean",
+                "time": "+33.130"
             },
             {
-                "position": "9",
-                "Time": {
-                    "millis": "4746879",
-                    "time": "+33.527"
-                },
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "9",
+                "driver": "Hamilton",
+                "time": "+33.527"
             },
             {
-                "position": "10",
-                "Time": {
-                    "millis": "4751679",
-                    "time": "+38.327"
-                },
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "10",
+                "driver": "Button",
+                "time": "+38.327"
             },
             {
-                "position": "11",
-                "Time": {
-                    "millis": "4752047",
-                    "time": "+38.695"
-                },
-                "Driver": {
-                    "familyName": "Räikkönen"
-                }
+                "pos": "11",
+                "driver": "Räikkönen",
+                "time": "+38.695"
             },
             {
-                "position": "12",
-                "Time": {
-                    "millis": "4753117",
-                    "time": "+39.765"
-                },
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "12",
+                "driver": "Pérez",
+                "time": "+39.765"
             },
             {
-                "position": "13",
-                "Time": {
-                    "millis": "4754232",
-                    "time": "+40.880"
-                },
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "13",
+                "driver": "Gutiérrez",
+                "time": "+40.880"
             },
             {
-                "position": "14",
-                "Time": {
-                    "millis": "4762437",
-                    "time": "+49.085"
-                },
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "14",
+                "driver": "Maldonado",
+                "time": "+49.085"
             },
             {
-                "position": "15",
-                "Time": {
-                    "millis": "4770179",
-                    "time": "+56.827"
-                },
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "15",
+                "driver": "Bottas",
+                "time": "+56.827"
             },
             {
-                "position": "16",
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "16",
+                "driver": "Sutil"
             },
             {
-                "position": "17",
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "17",
+                "driver": "Pic"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "18",
+                "driver": "van der Garde"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "19",
+                "driver": "Bianchi"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "20",
+                "driver": "Chilton"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "21",
+                "driver": "Vergne"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "22",
+                "driver": "di Resta"
             }
         ]
     },
@@ -2268,192 +1284,106 @@
         "slug": "singapore",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "7153132",
-                    "time": "1:59:13.132"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "1",
+                "driver": "Vettel",
+                "time": "1:59:13.132"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "7185759",
-                    "time": "+32.627"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "2",
+                "driver": "Alonso",
+                "time": "+32.627"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "7197052",
-                    "time": "+43.920"
-                },
-                "Driver": {
-                    "familyName": "Räikkönen"
-                }
+                "pos": "3",
+                "driver": "Räikkönen",
+                "time": "+43.920"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "7204287",
-                    "time": "+51.155"
-                },
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "4",
+                "driver": "Rosberg",
+                "time": "+51.155"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "7206291",
-                    "time": "+53.159"
-                },
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "5",
+                "driver": "Hamilton",
+                "time": "+53.159"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "7217009",
-                    "time": "+1:03.877"
-                },
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "6",
+                "driver": "Massa",
+                "time": "+1:03.877"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "7236486",
-                    "time": "+1:23.354"
-                },
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "7",
+                "driver": "Button",
+                "time": "+1:23.354"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "7236952",
-                    "time": "+1:23.820"
-                },
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "8",
+                "driver": "Pérez",
+                "time": "+1:23.820"
             },
             {
-                "position": "9",
-                "Time": {
-                    "millis": "7237393",
-                    "time": "+1:24.261"
-                },
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "9",
+                "driver": "Hülkenberg",
+                "time": "+1:24.261"
             },
             {
-                "position": "10",
-                "Time": {
-                    "millis": "7237800",
-                    "time": "+1:24.668"
-                },
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "10",
+                "driver": "Sutil",
+                "time": "+1:24.668"
             },
             {
-                "position": "11",
-                "Time": {
-                    "millis": "7241611",
-                    "time": "+1:28.479"
-                },
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "11",
+                "driver": "Maldonado",
+                "time": "+1:28.479"
             },
             {
-                "position": "12",
-                "Time": {
-                    "millis": "7251026",
-                    "time": "+1:37.894"
-                },
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "12",
+                "driver": "Gutiérrez",
+                "time": "+1:37.894"
             },
             {
-                "position": "13",
-                "Time": {
-                    "millis": "7258293",
-                    "time": "+1:45.161"
-                },
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "13",
+                "driver": "Bottas",
+                "time": "+1:45.161"
             },
             {
-                "position": "14",
-                "Time": {
-                    "millis": "7266644",
-                    "time": "+1:53.512"
-                },
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "14",
+                "driver": "Vergne",
+                "time": "+1:53.512"
             },
             {
-                "position": "15",
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "15",
+                "driver": "Webber"
             },
             {
-                "position": "16",
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "16",
+                "driver": "van der Garde"
             },
             {
-                "position": "17",
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "17",
+                "driver": "Chilton"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "18",
+                "driver": "Bianchi"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "19",
+                "driver": "Pic"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "20",
+                "driver": "di Resta"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "21",
+                "driver": "Grosjean"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "22",
+                "driver": "Ricciardo"
             }
         ]
     },
@@ -2462,204 +1392,109 @@
         "slug": "korean",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "6193701",
-                    "time": "1:43:13.701"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "1",
+                "driver": "Vettel",
+                "time": "1:43:13.701"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "6197925",
-                    "time": "+4.224"
-                },
-                "Driver": {
-                    "familyName": "Räikkönen"
-                }
+                "pos": "2",
+                "driver": "Räikkönen",
+                "time": "+4.224"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "6198628",
-                    "time": "+4.927"
-                },
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "3",
+                "driver": "Grosjean",
+                "time": "+4.927"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "6217815",
-                    "time": "+24.114"
-                },
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "4",
+                "driver": "Hülkenberg",
+                "time": "+24.114"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "6218956",
-                    "time": "+25.255"
-                },
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "5",
+                "driver": "Hamilton",
+                "time": "+25.255"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "6219890",
-                    "time": "+26.189"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "6",
+                "driver": "Alonso",
+                "time": "+26.189"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "6220399",
-                    "time": "+26.698"
-                },
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "7",
+                "driver": "Rosberg",
+                "time": "+26.698"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "6225963",
-                    "time": "+32.262"
-                },
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "8",
+                "driver": "Button",
+                "time": "+32.262"
             },
             {
-                "position": "9",
-                "Time": {
-                    "millis": "6228091",
-                    "time": "+34.390"
-                },
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "9",
+                "driver": "Massa",
+                "time": "+34.390"
             },
             {
-                "position": "10",
-                "Time": {
-                    "millis": "6228856",
-                    "time": "+35.155"
-                },
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "10",
+                "driver": "Pérez",
+                "time": "+35.155"
             },
             {
-                "position": "11",
-                "Time": {
-                    "millis": "6229691",
-                    "time": "+35.990"
-                },
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "11",
+                "driver": "Gutiérrez",
+                "time": "+35.990"
             },
             {
-                "position": "12",
-                "Time": {
-                    "millis": "6240750",
-                    "time": "+47.049"
-                },
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "12",
+                "driver": "Bottas",
+                "time": "+47.049"
             },
             {
-                "position": "13",
-                "Time": {
-                    "millis": "6243714",
-                    "time": "+50.013"
-                },
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "13",
+                "driver": "Maldonado",
+                "time": "+50.013"
             },
             {
-                "position": "14",
-                "Time": {
-                    "millis": "6257279",
-                    "time": "+1:03.578"
-                },
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "14",
+                "driver": "Pic",
+                "time": "+1:03.578"
             },
             {
-                "position": "15",
-                "Time": {
-                    "millis": "6258202",
-                    "time": "+1:04.501"
-                },
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "15",
+                "driver": "van der Garde",
+                "time": "+1:04.501"
             },
             {
-                "position": "16",
-                "Time": {
-                    "millis": "6261671",
-                    "time": "+1:07.970"
-                },
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "16",
+                "driver": "Bianchi",
+                "time": "+1:07.970"
             },
             {
-                "position": "17",
-                "Time": {
-                    "millis": "6266599",
-                    "time": "+1:12.898"
-                },
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "17",
+                "driver": "Chilton",
+                "time": "+1:12.898"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "18",
+                "driver": "Vergne"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "19",
+                "driver": "Ricciardo"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "20",
+                "driver": "Sutil"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "21",
+                "driver": "Webber"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "22",
+                "driver": "di Resta"
             }
         ]
     },
@@ -2668,180 +1503,103 @@
         "slug": "japanese",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "5209301",
-                    "time": "1:26:49.301"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "1",
+                "driver": "Vettel",
+                "time": "1:26:49.301"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "5216430",
-                    "time": "+7.129"
-                },
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "2",
+                "driver": "Webber",
+                "time": "+7.129"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "5219211",
-                    "time": "+9.910"
-                },
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "3",
+                "driver": "Grosjean",
+                "time": "+9.910"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "5254906",
-                    "time": "+45.605"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "4",
+                "driver": "Alonso",
+                "time": "+45.605"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "5256626",
-                    "time": "+47.325"
-                },
-                "Driver": {
-                    "familyName": "Räikkönen"
-                }
+                "pos": "5",
+                "driver": "Räikkönen",
+                "time": "+47.325"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "5260916",
-                    "time": "+51.615"
-                },
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "6",
+                "driver": "Hülkenberg",
+                "time": "+51.615"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "5280931",
-                    "time": "+1:11.630"
-                },
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "7",
+                "driver": "Gutiérrez",
+                "time": "+1:11.630"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "5281324",
-                    "time": "+1:12.023"
-                },
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "8",
+                "driver": "Rosberg",
+                "time": "+1:12.023"
             },
             {
-                "position": "9",
-                "Time": {
-                    "millis": "5290122",
-                    "time": "+1:20.821"
-                },
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "9",
+                "driver": "Button",
+                "time": "+1:20.821"
             },
             {
-                "position": "10",
-                "Time": {
-                    "millis": "5298564",
-                    "time": "+1:29.263"
-                },
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "10",
+                "driver": "Massa",
+                "time": "+1:29.263"
             },
             {
-                "position": "11",
-                "Time": {
-                    "millis": "5307873",
-                    "time": "+1:38.572"
-                },
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "11",
+                "driver": "di Resta",
+                "time": "+1:38.572"
             },
             {
-                "position": "12",
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "12",
+                "driver": "Vergne"
             },
             {
-                "position": "13",
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "13",
+                "driver": "Ricciardo"
             },
             {
-                "position": "14",
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "14",
+                "driver": "Sutil"
             },
             {
-                "position": "15",
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "15",
+                "driver": "Pérez"
             },
             {
-                "position": "16",
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "16",
+                "driver": "Maldonado"
             },
             {
-                "position": "17",
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "17",
+                "driver": "Bottas"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "18",
+                "driver": "Pic"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "19",
+                "driver": "Chilton"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "20",
+                "driver": "Hamilton"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "21",
+                "driver": "van der Garde"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "22",
+                "driver": "Bianchi"
             }
         ]
     },
@@ -2850,184 +1608,104 @@
         "slug": "indian",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "5472187",
-                    "time": "1:31:12.187"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "1",
+                "driver": "Vettel",
+                "time": "1:31:12.187"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "5502010",
-                    "time": "+29.823"
-                },
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "2",
+                "driver": "Rosberg",
+                "time": "+29.823"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "5512079",
-                    "time": "+39.892"
-                },
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "3",
+                "driver": "Grosjean",
+                "time": "+39.892"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "5513879",
-                    "time": "+41.692"
-                },
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "4",
+                "driver": "Massa",
+                "time": "+41.692"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "5516016",
-                    "time": "+43.829"
-                },
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "5",
+                "driver": "Pérez",
+                "time": "+43.829"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "5524662",
-                    "time": "+52.475"
-                },
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "6",
+                "driver": "Hamilton",
+                "time": "+52.475"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "5540175",
-                    "time": "+1:07.988"
-                },
-                "Driver": {
-                    "familyName": "Räikkönen"
-                }
+                "pos": "7",
+                "driver": "Räikkönen",
+                "time": "+1:07.988"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "5545055",
-                    "time": "+1:12.868"
-                },
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "8",
+                "driver": "di Resta",
+                "time": "+1:12.868"
             },
             {
-                "position": "9",
-                "Time": {
-                    "millis": "5546921",
-                    "time": "+1:14.734"
-                },
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "9",
+                "driver": "Sutil",
+                "time": "+1:14.734"
             },
             {
-                "position": "10",
-                "Time": {
-                    "millis": "5548424",
-                    "time": "+1:16.237"
-                },
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "10",
+                "driver": "Ricciardo",
+                "time": "+1:16.237"
             },
             {
-                "position": "11",
-                "Time": {
-                    "millis": "5550484",
-                    "time": "+1:18.297"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "11",
+                "driver": "Alonso",
+                "time": "+1:18.297"
             },
             {
-                "position": "12",
-                "Time": {
-                    "millis": "5551138",
-                    "time": "+1:18.951"
-                },
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "12",
+                "driver": "Maldonado",
+                "time": "+1:18.951"
             },
             {
-                "position": "13",
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "13",
+                "driver": "Vergne"
             },
             {
-                "position": "14",
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "14",
+                "driver": "Button"
             },
             {
-                "position": "15",
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "15",
+                "driver": "Gutiérrez"
             },
             {
-                "position": "16",
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "16",
+                "driver": "Bottas"
             },
             {
-                "position": "17",
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "17",
+                "driver": "Chilton"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "18",
+                "driver": "Bianchi"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "19",
+                "driver": "Hülkenberg"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "20",
+                "driver": "Webber"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "21",
+                "driver": "Pic"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "22",
+                "driver": "van der Garde"
             }
         ]
     },
@@ -3036,188 +1714,105 @@
         "slug": "abu-dhabi",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "5886106",
-                    "time": "1:38:06.106"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "1",
+                "driver": "Vettel",
+                "time": "1:38:06.106"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "5916935",
-                    "time": "+30.829"
-                },
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "2",
+                "driver": "Webber",
+                "time": "+30.829"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "5919756",
-                    "time": "+33.650"
-                },
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "3",
+                "driver": "Rosberg",
+                "time": "+33.650"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "5920908",
-                    "time": "+34.802"
-                },
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "4",
+                "driver": "Grosjean",
+                "time": "+34.802"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "5953287",
-                    "time": "+1:07.181"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "5",
+                "driver": "Alonso",
+                "time": "+1:07.181"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "5964280",
-                    "time": "+1:18.174"
-                },
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "6",
+                "driver": "di Resta",
+                "time": "+1:18.174"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "5965373",
-                    "time": "+1:19.267"
-                },
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "7",
+                "driver": "Hamilton",
+                "time": "+1:19.267"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "5968992",
-                    "time": "+1:22.886"
-                },
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "8",
+                "driver": "Massa",
+                "time": "+1:22.886"
             },
             {
-                "position": "9",
-                "Time": {
-                    "millis": "5977304",
-                    "time": "+1:31.198"
-                },
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "9",
+                "driver": "Pérez",
+                "time": "+1:31.198"
             },
             {
-                "position": "10",
-                "Time": {
-                    "millis": "5979363",
-                    "time": "+1:33.257"
-                },
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "10",
+                "driver": "Sutil",
+                "time": "+1:33.257"
             },
             {
-                "position": "11",
-                "Time": {
-                    "millis": "5982095",
-                    "time": "+1:35.989"
-                },
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "11",
+                "driver": "Maldonado",
+                "time": "+1:35.989"
             },
             {
-                "position": "12",
-                "Time": {
-                    "millis": "5989873",
-                    "time": "+1:43.767"
-                },
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "12",
+                "driver": "Button",
+                "time": "+1:43.767"
             },
             {
-                "position": "13",
-                "Time": {
-                    "millis": "5990401",
-                    "time": "+1:44.295"
-                },
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "13",
+                "driver": "Gutiérrez",
+                "time": "+1:44.295"
             },
             {
-                "position": "14",
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "14",
+                "driver": "Hülkenberg"
             },
             {
-                "position": "15",
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "15",
+                "driver": "Bottas"
             },
             {
-                "position": "16",
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "16",
+                "driver": "Ricciardo"
             },
             {
-                "position": "17",
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "17",
+                "driver": "Vergne"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "18",
+                "driver": "van der Garde"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "19",
+                "driver": "Pic"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "20",
+                "driver": "Bianchi"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "21",
+                "driver": "Chilton"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "Räikkönen"
-                }
+                "pos": "22",
+                "driver": "Räikkönen"
             }
         ]
     },
@@ -3226,200 +1821,108 @@
         "slug": "united-states",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "5957148",
-                    "time": "1:39:17.148"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "1",
+                "driver": "Vettel",
+                "time": "1:39:17.148"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "5963432",
-                    "time": "+6.284"
-                },
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "2",
+                "driver": "Grosjean",
+                "time": "+6.284"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "5965544",
-                    "time": "+8.396"
-                },
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "3",
+                "driver": "Webber",
+                "time": "+8.396"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "5984506",
-                    "time": "+27.358"
-                },
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "4",
+                "driver": "Hamilton",
+                "time": "+27.358"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "5986740",
-                    "time": "+29.592"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "5",
+                "driver": "Alonso",
+                "time": "+29.592"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "5987548",
-                    "time": "+30.400"
-                },
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "6",
+                "driver": "Hülkenberg",
+                "time": "+30.400"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "6003840",
-                    "time": "+46.692"
-                },
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "7",
+                "driver": "Pérez",
+                "time": "+46.692"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "6011657",
-                    "time": "+54.509"
-                },
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "8",
+                "driver": "Bottas",
+                "time": "+54.509"
             },
             {
-                "position": "9",
-                "Time": {
-                    "millis": "6016289",
-                    "time": "+59.141"
-                },
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "9",
+                "driver": "Rosberg",
+                "time": "+59.141"
             },
             {
-                "position": "10",
-                "Time": {
-                    "millis": "6034426",
-                    "time": "+1:17.278"
-                },
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "10",
+                "driver": "Button",
+                "time": "+1:17.278"
             },
             {
-                "position": "11",
-                "Time": {
-                    "millis": "6038152",
-                    "time": "+1:21.004"
-                },
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "11",
+                "driver": "Ricciardo",
+                "time": "+1:21.004"
             },
             {
-                "position": "12",
-                "Time": {
-                    "millis": "6041722",
-                    "time": "+1:24.574"
-                },
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "12",
+                "driver": "Vergne",
+                "time": "+1:24.574"
             },
             {
-                "position": "13",
-                "Time": {
-                    "millis": "6044062",
-                    "time": "+1:26.914"
-                },
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "13",
+                "driver": "Massa",
+                "time": "+1:26.914"
             },
             {
-                "position": "14",
-                "Time": {
-                    "millis": "6048855",
-                    "time": "+1:31.707"
-                },
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "14",
+                "driver": "Gutiérrez",
+                "time": "+1:31.707"
             },
             {
-                "position": "15",
-                "Time": {
-                    "millis": "6052211",
-                    "time": "+1:35.063"
-                },
-                "Driver": {
-                    "familyName": "Kovalainen"
-                }
+                "pos": "15",
+                "driver": "Kovalainen",
+                "time": "+1:35.063"
             },
             {
-                "position": "16",
-                "Time": {
-                    "millis": "6054001",
-                    "time": "+1:36.853"
-                },
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "16",
+                "driver": "di Resta",
+                "time": "+1:36.853"
             },
             {
-                "position": "17",
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "17",
+                "driver": "Maldonado"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "18",
+                "driver": "Bianchi"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "19",
+                "driver": "van der Garde"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "20",
+                "driver": "Pic"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "21",
+                "driver": "Chilton"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "22",
+                "driver": "Sutil"
             }
         ]
     },
@@ -3428,172 +1931,101 @@
         "slug": "brazilian",
         "results": [
             {
-                "position": "1",
-                "Time": {
-                    "millis": "5556300",
-                    "time": "1:32:36.300"
-                },
-                "Driver": {
-                    "familyName": "Vettel"
-                }
+                "pos": "1",
+                "driver": "Vettel",
+                "time": "1:32:36.300"
             },
             {
-                "position": "2",
-                "Time": {
-                    "millis": "5566752",
-                    "time": "+10.452"
-                },
-                "Driver": {
-                    "familyName": "Webber"
-                }
+                "pos": "2",
+                "driver": "Webber",
+                "time": "+10.452"
             },
             {
-                "position": "3",
-                "Time": {
-                    "millis": "5575213",
-                    "time": "+18.913"
-                },
-                "Driver": {
-                    "familyName": "Alonso"
-                }
+                "pos": "3",
+                "driver": "Alonso",
+                "time": "+18.913"
             },
             {
-                "position": "4",
-                "Time": {
-                    "millis": "5593660",
-                    "time": "+37.360"
-                },
-                "Driver": {
-                    "familyName": "Button"
-                }
+                "pos": "4",
+                "driver": "Button",
+                "time": "+37.360"
             },
             {
-                "position": "5",
-                "Time": {
-                    "millis": "5595348",
-                    "time": "+39.048"
-                },
-                "Driver": {
-                    "familyName": "Rosberg"
-                }
+                "pos": "5",
+                "driver": "Rosberg",
+                "time": "+39.048"
             },
             {
-                "position": "6",
-                "Time": {
-                    "millis": "5600351",
-                    "time": "+44.051"
-                },
-                "Driver": {
-                    "familyName": "Pérez"
-                }
+                "pos": "6",
+                "driver": "Pérez",
+                "time": "+44.051"
             },
             {
-                "position": "7",
-                "Time": {
-                    "millis": "5605410",
-                    "time": "+49.110"
-                },
-                "Driver": {
-                    "familyName": "Massa"
-                }
+                "pos": "7",
+                "driver": "Massa",
+                "time": "+49.110"
             },
             {
-                "position": "8",
-                "Time": {
-                    "millis": "5620552",
-                    "time": "+1:04.252"
-                },
-                "Driver": {
-                    "familyName": "Hülkenberg"
-                }
+                "pos": "8",
+                "driver": "Hülkenberg",
+                "time": "+1:04.252"
             },
             {
-                "position": "9",
-                "Time": {
-                    "millis": "5629203",
-                    "time": "+1:12.903"
-                },
-                "Driver": {
-                    "familyName": "Hamilton"
-                }
+                "pos": "9",
+                "driver": "Hamilton",
+                "time": "+1:12.903"
             },
             {
-                "position": "10",
-                "Driver": {
-                    "familyName": "Ricciardo"
-                }
+                "pos": "10",
+                "driver": "Ricciardo"
             },
             {
-                "position": "11",
-                "Driver": {
-                    "familyName": "di Resta"
-                }
+                "pos": "11",
+                "driver": "di Resta"
             },
             {
-                "position": "12",
-                "Driver": {
-                    "familyName": "Gutiérrez"
-                }
+                "pos": "12",
+                "driver": "Gutiérrez"
             },
             {
-                "position": "13",
-                "Driver": {
-                    "familyName": "Sutil"
-                }
+                "pos": "13",
+                "driver": "Sutil"
             },
             {
-                "position": "14",
-                "Driver": {
-                    "familyName": "Kovalainen"
-                }
+                "pos": "14",
+                "driver": "Kovalainen"
             },
             {
-                "position": "15",
-                "Driver": {
-                    "familyName": "Vergne"
-                }
+                "pos": "15",
+                "driver": "Vergne"
             },
             {
-                "position": "16",
-                "Driver": {
-                    "familyName": "Maldonado"
-                }
+                "pos": "16",
+                "driver": "Maldonado"
             },
             {
-                "position": "17",
-                "Driver": {
-                    "familyName": "Bianchi"
-                }
+                "pos": "17",
+                "driver": "Bianchi"
             },
             {
-                "position": "18",
-                "Driver": {
-                    "familyName": "van der Garde"
-                }
+                "pos": "18",
+                "driver": "van der Garde"
             },
             {
-                "position": "19",
-                "Driver": {
-                    "familyName": "Chilton"
-                }
+                "pos": "19",
+                "driver": "Chilton"
             },
             {
-                "position": "20",
-                "Driver": {
-                    "familyName": "Pic"
-                }
+                "pos": "20",
+                "driver": "Pic"
             },
             {
-                "position": "21",
-                "Driver": {
-                    "familyName": "Bottas"
-                }
+                "pos": "21",
+                "driver": "Bottas"
             },
             {
-                "position": "22",
-                "Driver": {
-                    "familyName": "Grosjean"
-                }
+                "pos": "22",
+                "driver": "Grosjean"
             }
         ]
     }

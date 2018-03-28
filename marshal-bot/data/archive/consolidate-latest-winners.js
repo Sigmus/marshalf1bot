@@ -16,7 +16,7 @@ const winners = _.reduce(
       acc[race.slug].push({
         season,
         race: race.slug,
-        driver: race.results[0].Driver.familyName
+        driver: race.results[0].driver
       });
     });
     return acc;

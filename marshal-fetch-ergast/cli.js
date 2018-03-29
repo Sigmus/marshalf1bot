@@ -2,42 +2,32 @@ const argv = require("minimist")(process.argv.slice(2));
 const ergast = require("./ergast");
 const refresh = require("./refresh");
 
+const printJson = data => console.log(JSON.stringify(data, null, 4));
+
 if (argv.refresh) {
-  refresh().then(data => console.log(JSON.stringify(data, null, 4)));
+  refresh().then(printJson);
 }
 
 if (argv.endpoint) {
-  ergast
-    .endpoint(argv.endpoint)
-    .then(data => console.log(JSON.stringify(data, null, 4)));
+  ergast.endpoint(argv.endpoint).then(printJson);
 }
 
 if (argv.driverStandings) {
-  ergast
-    .driverStandings(argv.driverStandings)
-    .then(data => console.log(JSON.stringify(data, null, 4)));
+  ergast.driverStandings(argv.driverStandings).then(printJson);
 }
 
 if (argv.constructorStandings) {
-  ergast
-    .constructorStandings(argv.constructorStandings)
-    .then(data => console.log(JSON.stringify(data, null, 4)));
+  ergast.constructorStandings(argv.constructorStandings).then(printJson);
 }
 
 if (argv.qualifying) {
-  ergast
-    .qualifying(argv.qualifying)
-    .then(data => console.log(JSON.stringify(data, null, 4)));
+  ergast.qualifying(argv.qualifying).then(printJson);
 }
 
 if (argv.results) {
-  ergast
-    .results(argv.results)
-    .then(data => console.log(JSON.stringify(data, null, 4)));
+  ergast.results(argv.results).then(printJson);
 }
 
 if (argv.season) {
-  ergast
-    .season(argv.season)
-    .then(data => console.log(JSON.stringify(data, null, 4)));
+  ergast.season(argv.season).then(printJson);
 }

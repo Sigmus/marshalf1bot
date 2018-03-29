@@ -3,7 +3,7 @@ const size = require("lodash/size");
 const moment = require("moment");
 const fetchS3 = require("../data/fetch-s3");
 const currentSeason = require("../data/archive/2018/season");
-const latestWinners = require("../data/archive/latest-winners");
+const lastWinners = require("../data/archive/last-winners");
 
 module.exports = roundIndex => {
   return Promise.all([
@@ -20,7 +20,7 @@ module.exports = roundIndex => {
     if (!size(results)) {
       content +=
         "\n\nLast Winners\n" +
-        latestWinners[currentSeason[roundIndex].slug]
+        lastWinners[currentSeason[roundIndex].slug]
           .reverse()
           .map(item => `${item.season}. ${item.driver}`)
           .join("\n");

@@ -1,6 +1,5 @@
 const argv = require("minimist")(process.argv.slice(2));
 const ergast = require("./ergast");
-const fetchRemote = require("./fetch-remote-2018");
 
 if (argv.endpoint) {
   ergast
@@ -38,4 +37,3 @@ if (argv.season) {
     .then(data => console.log(JSON.stringify(data, null, 4)));
 }
 
-// : fetchRemote().then(data => console.log(JSON.stringify(data, null, 4)));

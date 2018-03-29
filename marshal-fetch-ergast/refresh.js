@@ -2,17 +2,15 @@ const AWS = require("aws-sdk");
 const s3 = new AWS.S3();
 const ergast = require("./ergast");
 
-const year = "2018";
-
-module.exports = (event, context, callback) =>
+module.exports = year =>
   Promise.all([
-    copyData("driverStandings"),
-    copyData("constructorStandings"),
-    copyData("qualifying"),
-    copyData("results")
+    copyData(year, "driverStandings"),
+    copyData(year, "constructorStandings"),
+    copyData(year, "qualifying"),
+    copyData(year, "results")
   ]);
 
-const copyData = name =>
+const copyData = (year, name) =>
   ergast[name](year).then(data => putObject(`${year}/${name}.json`, data));
 
 const putObject = (Key, data) =>

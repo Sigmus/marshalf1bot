@@ -5,7 +5,7 @@ const refresh = require("./refresh");
 const printJson = data => console.log(JSON.stringify(data, null, 4));
 
 if (argv.refresh) {
-  refresh().then(printJson);
+  refresh("2018").then(printJson);
 }
 
 if (argv.endpoint) {

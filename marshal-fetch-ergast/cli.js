@@ -1,5 +1,10 @@
 const argv = require("minimist")(process.argv.slice(2));
 const ergast = require("./ergast");
+const refresh = require("./refresh");
+
+if (argv.refresh) {
+  refresh().then(data => console.log(JSON.stringify(data, null, 4)));
+}
 
 if (argv.endpoint) {
   ergast
@@ -36,4 +41,3 @@ if (argv.season) {
     .season(argv.season)
     .then(data => console.log(JSON.stringify(data, null, 4)));
 }
-

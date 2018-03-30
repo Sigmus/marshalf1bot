@@ -1,6 +1,6 @@
-const currentSeason = require("../data/current-season");
-
 const moment = require("moment");
+const currentSeason = require("../data/current-season");
+const currentYear = require("../data/current-year");
 
 module.exports = sliceIndex =>
   new Promise(resolve => {
@@ -13,6 +13,8 @@ module.exports = sliceIndex =>
       .join("\n");
 
     resolve(
-      `${sliceIndex === 0 ? "" : "Remaining "}2018 rounds:\n\n${content}`
+      `${sliceIndex === 0 ? "" : "Remaining "}${currentYear} rounds:\n\n${
+        content
+      }`
     );
   });

@@ -1,7 +1,6 @@
 const AWS = require("aws-sdk");
 const s3 = new AWS.S3();
-
-const currentYear = "2018";
+const currentYear = require("./current-year");
 
 module.exports = Key =>
   s3

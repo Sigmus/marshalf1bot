@@ -1,2 +1,3 @@
-module.exports = require("./archive/2018/season");
+const currentYear = require("./current-year");
 
+module.exports = require(`./archive/${currentYear}/season`);

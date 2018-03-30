@@ -1,7 +1,7 @@
 const fetchS3 = require("../data/fetch-s3");
 
 module.exports = roundIndex => {
-  return fetchS3("2018/results.json").then(response => {
+  return fetchS3("results.json").then(response => {
     const content = response[roundIndex].results
       .map(
         item =>

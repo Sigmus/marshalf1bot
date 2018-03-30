@@ -7,8 +7,8 @@ const lastWinners = require("../data/archive/last-winners");
 
 module.exports = roundIndex => {
   return Promise.all([
-    fetchS3("2018/qualifying.json"),
-    fetchS3("2018/results.json")
+    fetchS3("qualifying.json"),
+    fetchS3("results.json")
   ]).then(response => {
     const qualifying = response[0][roundIndex] ? response[0][roundIndex] : [];
     const results = response[1][roundIndex] ? response[1][roundIndex] : [];

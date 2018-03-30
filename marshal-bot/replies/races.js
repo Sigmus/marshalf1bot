@@ -1,4 +1,4 @@
-const currentSeason = require("../data/archive/2018/season");
+const currentSeason = require("../data/current-season");
 
 const moment = require("moment");
 

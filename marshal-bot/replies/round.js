@@ -2,7 +2,7 @@ const { fbTemplate } = require("claudia-bot-builder");
 const size = require("lodash/size");
 const moment = require("moment");
 const fetchS3 = require("../data/fetch-s3");
-const currentSeason = require("../data/archive/2018/season");
+const currentSeason = require("../data/current-season");
 const lastWinners = require("../data/archive/last-winners");
 
 module.exports = roundIndex => {

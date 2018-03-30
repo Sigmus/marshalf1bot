@@ -8,7 +8,7 @@ const round = require("./replies/round");
 
 const moment = require("moment");
 
-const currentSeason = require("./data/archive/2018/season");
+const currentSeason = require("./data/current-season");
 
 const getNextRounds = () => {
   const now = moment().unix();

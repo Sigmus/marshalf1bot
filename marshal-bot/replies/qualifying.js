@@ -24,6 +24,8 @@ module.exports = roundIndex => {
       obj.addQuickReply("Race Results", `results ${roundIndex + 1}`);
     }
 
+    obj.addQuickReply("Race Details", `round ${roundIndex + 1}`);
+
     return obj.get();
   });
 };

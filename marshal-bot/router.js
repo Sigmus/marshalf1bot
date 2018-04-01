@@ -28,28 +28,30 @@ const getPrevRounds = () => {
     .reverse();
 };
 
-module.exports = request => {
-  // console.log(request);
+module.exports = message => {
+  // console.log(message);
   // process.exit(1);
-  return db
-    .insert({
-      sender: request.sender,
-      text: request.text,
-      timestamp: request.originalRequest.timestamp,
-      originalRequest: request.originalRequest
-    })
-    .then(() => {
-      return conversations.fetch(request.sender).then(data => {
-        data.conversations.unshift(request);
-        return conversations.insert(request.sender, data).then(() => {
-          return parseRoutes(request);
-        });
+  let previousMessage = null;
+  return db.fetch(message.sender).then(response => {
+    if (response.Items.length) {
+      previousMessage = response.Items[0];
+      // console.log("previousMessage", previousMessage);
+    }
+    return db
+      .insert({
+        sender: message.sender,
+        text: message.text,
+        timestamp: message.originalRequest.timestamp,
+        originalRequest: message.originalRequest
+      })
+      .then(() => {
+        return parseRoutes(message);
       });
-    });
+  });
 };
 
-const parseRoutes = request => {
-  const cmd = request.text.toLowerCase();
+const parseRoutes = message => {
+  const cmd = message.text.toLowerCase();
   let aux;
   let roundNumber;
 

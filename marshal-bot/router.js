@@ -35,10 +35,7 @@ module.exports = request => {
   let roundNumber;
 
   return conversations.fetch(request.sender).then(data => {
-    data.conversations.unshift({
-      sender: request.sender,
-      ts: new Date().getTime()
-    });
+    data.conversations.unshift(request);
 
     return conversations.insert(request.sender, data).then(() => {
       console.log(data.conversations);

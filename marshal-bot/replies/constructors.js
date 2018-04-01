@@ -13,6 +13,7 @@ module.exports = () => {
     );
 
     newMessage.addQuickReply("Drivers", "drivers");
+    newMessage.addQuickReply("Next race", "next");
 
     return newMessage.get();
   });

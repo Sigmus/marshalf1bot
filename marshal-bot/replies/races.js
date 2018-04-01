@@ -1,3 +1,4 @@
+const { fbTemplate } = require("claudia-bot-builder");
 const moment = require("moment");
 const season = require("../data/season");
 
@@ -11,9 +12,13 @@ module.exports = sliceIndex =>
       )
       .join("\n");
 
-    resolve(
+    const newMessage = new fbTemplate.Text(
       `${sliceIndex === 0 ? "" : "Remaining "}${season.year} rounds:\n\n${
         content
       }`
     );
+
+    newMessage.addQuickReply("Last Results", "last results");
+
+    resolve(newMessage.get());
   });

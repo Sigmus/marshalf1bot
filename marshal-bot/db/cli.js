@@ -63,7 +63,7 @@ if (argv.fetch) {
 
 if (argv.remove) {
   conversations
-    .remove("1556914271059232")
+    .remove("xpto")
     .then(r => console.log(r))
     .catch(err => console.log(err));
 }

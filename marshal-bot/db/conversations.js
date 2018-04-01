@@ -6,12 +6,12 @@ const insert = Item => {
   return docClient.put({ TableName, Item }).promise();
 };
 
-const fetch = sender =>
+const fetch = (sender, Limit = 1) =>
   docClient
     .query({
       TableName,
       ScanIndexForward: false,
-      Limit: 1,
+      Limit,
       KeyConditionExpression: "#sd = :yyyy",
       ExpressionAttributeNames: { "#sd": "sender" },
       ExpressionAttributeValues: { ":yyyy": sender }
@@ -19,7 +19,7 @@ const fetch = sender =>
     .promise();
 
 const remove = sender =>
-  fetch(sender).then(({ Items }) =>
+  fetch(sender, null).then(({ Items }) =>
     Promise.all(
       Items.map(item =>
         docClient

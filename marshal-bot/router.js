@@ -8,24 +8,8 @@ const qualifying = require("./replies/qualifying");
 const winners = require("./replies/winners");
 const round = require("./replies/round");
 
-const currentSeason = require("./data/current-season");
+const season = require("./data/season");
 const db = require("./db/conversations");
-
-const getNextRounds = () => {
-  const now = moment().unix();
-  return currentSeason.filter((item, index) => {
-    return item.ts > now;
-  });
-};
-
-const getPrevRounds = () => {
-  const now = moment().unix();
-  return currentSeason
-    .filter((item, index) => {
-      return item.ts < now;
-    })
-    .reverse();
-};
 
 module.exports = message => {
   // console.log(message);
@@ -69,15 +53,15 @@ const parseRoutes = message => {
   }
 
   if (cmd === "remaining") {
-    return races(parseInt(getNextRounds()[0].round, 10) - 1);
+    return races(season.getNextRoundIndex());
   }
 
   if (cmd === "next") {
-    return round(parseInt(getNextRounds()[0].round, 10) - 1);
+    return round(season.getNextRoundIndex());
   }
 
   if (cmd == "last results") {
-    return results(parseInt(getPrevRounds()[0].round, 10) - 1);
+    return results(season.getPrevRoundIndex());
   }
 
   aux = cmd.split("results");

@@ -1,6 +1,6 @@
 const { fbTemplate } = require("claudia-bot-builder");
 const fetchS3 = require("../data/fetch-s3");
-const currentYear = require("../data/current-year");
+const season = require("../data/season");
 
 module.exports = () => {
   return fetchS3("driverStandings.json").then(data => {
@@ -9,7 +9,7 @@ module.exports = () => {
       .join("\n");
 
     const newMessage = new fbTemplate.Text(
-      `${currentYear} Driver's Championship:\n\n${content}`
+      `${season.year} Driver's Championship:\n\n${content}`
     );
 
     newMessage.addQuickReply("Constructors", "constructors");

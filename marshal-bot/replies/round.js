@@ -2,7 +2,7 @@ const { fbTemplate } = require("claudia-bot-builder");
 const size = require("lodash/size");
 const moment = require("moment");
 const fetchS3 = require("../data/fetch-s3");
-const currentSeason = require("../data/current-season");
+const season = require("../data/season");
 const lastWinners = require("../data/archive/last-winners");
 
 module.exports = roundIndex => {
@@ -13,14 +13,14 @@ module.exports = roundIndex => {
     const qualifying = response[0][roundIndex] ? response[0][roundIndex] : [];
     const results = response[1][roundIndex] ? response[1][roundIndex] : [];
 
-    let content = `${currentSeason[roundIndex].title} Grand Prix\n${moment
-      .unix(currentSeason[roundIndex].ts)
-      .format("MMM Do, LT")} – Round ${currentSeason[roundIndex].round}`;
+    let content = `${season.data[roundIndex].title} Grand Prix\n${moment
+      .unix(season.data[roundIndex].ts)
+      .format("MMM Do, LT")} – Round ${season.data[roundIndex].round}`;
 
     if (!size(results)) {
       content +=
         "\n\nLast Winners\n" +
-        lastWinners[currentSeason[roundIndex].slug]
+        lastWinners[season.data[roundIndex].slug]
           .reverse()
           .map(item => `${item.season}. ${item.driver}`)
           .join("\n");

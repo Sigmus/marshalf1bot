@@ -1,8 +1,8 @@
-const currentSeason = require("../data/current-season");
+const season = require("../data/season");
 const lastWinners = require("../data/archive/last-winners");
 
 module.exports = roundIndex => {
-  const data = lastWinners[currentSeason[roundIndex].slug];
+  const data = lastWinners[season.data[roundIndex].slug];
 
   const content = data
     .reverse()
@@ -11,9 +11,7 @@ module.exports = roundIndex => {
 
   return new Promise(resolve =>
     resolve(
-      `Last ${currentSeason[roundIndex].title} Grand Prix Winners:\n\n${
-        content
-      }`
+      `Last ${season.data[roundIndex].title} Grand Prix Winners:\n\n${content}`
     )
   );
 };

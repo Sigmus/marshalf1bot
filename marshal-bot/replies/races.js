@@ -1,11 +1,10 @@
 const moment = require("moment");
-const currentSeason = require("../data/current-season");
-const currentYear = require("../data/current-year");
+const season = require("../data/season");
 
 module.exports = sliceIndex =>
   new Promise(resolve => {
-    const content = currentSeason
-      .slice(sliceIndex, currentSeason.length)
+    const content = season.data
+      .slice(sliceIndex, season.data.length)
       .map(
         row =>
           `${row.round}. ${row.title}, ${moment.unix(row.ts).format("MMM Do")}`
@@ -13,7 +12,7 @@ module.exports = sliceIndex =>
       .join("\n");
 
     resolve(
-      `${sliceIndex === 0 ? "" : "Remaining "}${currentYear} rounds:\n\n${
+      `${sliceIndex === 0 ? "" : "Remaining "}${season.year} rounds:\n\n${
         content
       }`
     );

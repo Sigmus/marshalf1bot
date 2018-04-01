@@ -2,11 +2,7 @@ const docClient = require("./dynamodb").docClient;
 
 const TableName = "MarshalConversations";
 
-const insert = message => {
-  const Item = Object.assign({}, message, {
-    recipient: message.originalRequest.recipient.id,
-    timestamp: message.originalRequest.timestamp
-  });
+const insert = Item => {
   return docClient.put({ TableName, Item }).promise();
 };
 
@@ -14,6 +10,8 @@ const fetch = sender =>
   docClient
     .query({
       TableName,
+      ScanIndexForward: false,
+      Limit: 1,
       KeyConditionExpression: "#sd = :yyyy",
       ExpressionAttributeNames: { "#sd": "sender" },
       ExpressionAttributeValues: { ":yyyy": sender }

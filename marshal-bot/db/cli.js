@@ -39,15 +39,13 @@ if (argv.create) {
 }
 
 if (argv.insert) {
+  const timestamp = new Date().getTime();
   conversations
     .insert({
-      mid: "xpto5583738",
-      originalRequest: {
-        recipient: "13912sad83931-231b",
-        timestamp: 2323123
-      },
-      sender: "1556914271059232",
-      text: "938982332"
+      timestamp,
+      sender: "xpto",
+      text: "938982332",
+      originalRequest: { timestamp }
     })
     .then(result => console.log(result))
     .catch(err => console.log(err));
@@ -55,7 +53,7 @@ if (argv.insert) {
 
 if (argv.fetch) {
   conversations
-    .fetch("1556914271059232")
+    .fetch("xpto")
     // .then(r =>
     //   JSON.stringify(console.log(r.Items.map(x => x.originalRequest)), null, 4)
     // )

@@ -10,6 +10,7 @@ const round = require("./replies/round");
 
 const currentSeason = require("./data/current-season");
 const conversations = require("./data/conversations");
+const db = require("./db/conversations");
 
 const getNextRounds = () => {
   const now = moment().unix();
@@ -28,12 +29,23 @@ const getPrevRounds = () => {
 };
 
 module.exports = request => {
-  return conversations.fetch(request.sender).then(data => {
-    data.conversations.unshift(request);
-    return conversations.insert(request.sender, data).then(() => {
-      return parseRoutes(request);
+  // console.log(request);
+  // process.exit(1);
+  return db
+    .insert({
+      sender: request.sender,
+      text: request.text,
+      timestamp: request.originalRequest.timestamp,
+      originalRequest: request.originalRequest
+    })
+    .then(() => {
+      return conversations.fetch(request.sender).then(data => {
+        data.conversations.unshift(request);
+        return conversations.insert(request.sender, data).then(() => {
+          return parseRoutes(request);
+        });
+      });
     });
-  });
 };
 
 const parseRoutes = request => {

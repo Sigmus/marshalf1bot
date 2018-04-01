@@ -14,6 +14,8 @@ const printResponse = response =>
     typeof response === "string" ? response : JSON.stringify(response, null, 4)
   );
 
-router({ text: argv.cmd, sender: "xpto", ts: new Date().getTime() }).then(
-  printResponse
-);
+router({
+  text: argv.cmd,
+  sender: "xpto",
+  originalRequest: { timestamp: new Date().getTime() }
+}).then(printResponse);

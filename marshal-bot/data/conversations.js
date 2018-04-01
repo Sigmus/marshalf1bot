@@ -10,4 +10,14 @@ const fetch = sender =>
       return { conversations: [] };
     });
 
-module.exports = { fetch };
+const insert = (sender, data) =>
+  s3
+    .putObject({
+      Bucket: "marshalf1bot",
+      Key: `conversations/${sender}.json`,
+      Body: JSON.stringify(data),
+      ACL: "public-read"
+    })
+    .promise();
+
+module.exports = { fetch, insert };

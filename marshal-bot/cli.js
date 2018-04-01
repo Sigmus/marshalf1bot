@@ -1,7 +1,6 @@
 const argv = require("minimist")(process.argv.slice(2));
 const router = require("./router");
 const fetchS3 = require("./data/fetch-s3");
-const sample = require("./data/sample");
 
 // node cli.js --cmd 'next'
 

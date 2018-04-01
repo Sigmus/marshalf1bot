@@ -27,6 +27,7 @@ const getPrevRounds = () => {
 };
 
 module.exports = request => {
+  console.log(JSON.stringify(request, null, 4));
   const cmd = request.text.toLowerCase();
   let aux;
   let roundNumber;

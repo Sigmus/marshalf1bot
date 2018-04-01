@@ -15,4 +15,4 @@ const printResponse = response =>
     typeof response === "string" ? response : JSON.stringify(response, null, 4)
   );
 
-router({ text: argv.cmd }, sample).then(printResponse);
+router({ text: argv.cmd, sender: "xpto" }, sample).then(printResponse);

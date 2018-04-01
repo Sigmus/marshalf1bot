@@ -9,7 +9,6 @@ const winners = require("./replies/winners");
 const round = require("./replies/round");
 
 const currentSeason = require("./data/current-season");
-const conversations = require("./data/conversations");
 const db = require("./db/conversations");
 
 const getNextRounds = () => {

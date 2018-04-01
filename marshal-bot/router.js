@@ -28,63 +28,64 @@ const getPrevRounds = () => {
 };
 
 module.exports = request => {
-  console.log(JSON.stringify(request, null, 4));
+  return conversations.fetch(request.sender).then(data => {
+    data.conversations.unshift(request);
+    return conversations.insert(request.sender, data).then(() => {
+      return parseRoutes(request);
+    });
+  });
+};
 
+const parseRoutes = request => {
   const cmd = request.text.toLowerCase();
   let aux;
   let roundNumber;
 
-  return conversations.fetch(request.sender).then(data => {
-    data.conversations.unshift(request);
+  console.log("cmd", cmd);
 
-    return conversations.insert(request.sender, data).then(() => {
-      console.log(data.conversations);
+  if (cmd === "drivers") {
+    return drivers();
+  }
 
-      if (cmd === "drivers") {
-        return drivers();
-      }
+  if (cmd === "constructors") {
+    return constructors();
+  }
 
-      if (cmd === "constructors") {
-        return constructors();
-      }
+  if (cmd === "races") {
+    return races(0);
+  }
 
-      if (cmd === "races") {
-        return races(0);
-      }
+  if (cmd === "remaining") {
+    return races(parseInt(getNextRounds()[0].round, 10) - 1);
+  }
 
-      if (cmd === "remaining") {
-        return races(parseInt(getNextRounds()[0].round, 10) - 1);
-      }
+  if (cmd === "next") {
+    return round(parseInt(getNextRounds()[0].round, 10) - 1);
+  }
 
-      if (cmd === "next") {
-        return round(parseInt(getNextRounds()[0].round, 10) - 1);
-      }
+  if (cmd == "last results") {
+    return results(parseInt(getPrevRounds()[0].round, 10) - 1);
+  }
 
-      if (cmd == "last results") {
-        return results(parseInt(getPrevRounds()[0].round, 10) - 1);
-      }
+  aux = cmd.split("results");
+  if (aux.length === 2 && aux[1] !== "") {
+    return results(parseInt(aux[1]) - 1);
+  }
 
-      aux = cmd.split("results");
-      if (aux.length === 2 && aux[1] !== "") {
-        return results(parseInt(aux[1]) - 1);
-      }
+  aux = cmd.split("qualifying");
+  if (aux.length === 2 && aux[1] !== "") {
+    return qualifying(parseInt(aux[1]) - 1);
+  }
 
-      aux = cmd.split("qualifying");
-      if (aux.length === 2 && aux[1] !== "") {
-        return qualifying(parseInt(aux[1]) - 1);
-      }
+  aux = cmd.split("round");
+  if (aux.length === 2 && aux[1] !== "") {
+    return round(parseInt(aux[1]) - 1);
+  }
 
-      aux = cmd.split("round");
-      if (aux.length === 2 && aux[1] !== "") {
-        return round(parseInt(aux[1]) - 1);
-      }
+  aux = cmd.split("winners");
+  if (aux.length === 2 && aux[1] !== "") {
+    return winners(parseInt(aux[1]) - 1);
+  }
 
-      aux = cmd.split("winners");
-      if (aux.length === 2 && aux[1] !== "") {
-        return winners(parseInt(aux[1]) - 1);
-      }
-
-      return "What?";
-    });
-  });
+  return "What?";
 };

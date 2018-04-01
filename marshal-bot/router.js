@@ -26,7 +26,8 @@ const getPrevRounds = () => {
     .reverse();
 };
 
-module.exports = cmd => {
+module.exports = request => {
+  const cmd = request.text.toLowerCase();
   let aux;
   let roundNumber;
 

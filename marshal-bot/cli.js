@@ -15,4 +15,4 @@ const printResponse = response =>
     typeof response === "string" ? response : JSON.stringify(response, null, 4)
   );
 
-router(argv.cmd, sample).then(printResponse);
+router({ text: argv.cmd }, sample).then(printResponse);

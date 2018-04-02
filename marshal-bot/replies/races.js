@@ -1,6 +1,6 @@
 const { fbTemplate } = require("claudia-bot-builder");
 const moment = require("moment");
-const season = require("../data/season");
+const season = require("marshal-seasons/season");
 
 module.exports = sliceIndex =>
   new Promise(resolve => {

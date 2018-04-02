@@ -1,5 +1,5 @@
-const season = require("../data/season");
-const lastWinners = require("../data/archive/last-winners");
+const season = require("marshal-seasons/season");
+const lastWinners = require("marshal-seasons/archive/last-winners");
 
 module.exports = roundIndex => {
   const data = lastWinners[season.data[roundIndex].slug];

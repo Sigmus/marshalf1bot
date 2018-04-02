@@ -8,7 +8,7 @@ const qualifying = require("./replies/qualifying");
 const winners = require("./replies/winners");
 const round = require("./replies/round");
 
-const season = require("./data/season");
+const season = require("marshal-seasons/season");
 const db = require("marshal-db/conversations");
 
 module.exports = message => {

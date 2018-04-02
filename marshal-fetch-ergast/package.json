@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "marshal-seasons": "../marshal-seasons",
     "marshal-db": "../marshal-db",
     "lodash": "^4.17.5",
     "minimist": "^1.2.0",

@@ -1,7 +1,7 @@
 const { fbTemplate } = require("claudia-bot-builder");
 const size = require("lodash/size");
 const db = require("marshal-db/ergast");
-const season = require("../data/season");
+const season = require("marshal-seasons/season");
 
 module.exports = roundIndex => {
   return Promise.all([

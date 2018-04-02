@@ -1,12 +1,12 @@
 const argv = require("minimist")(process.argv.slice(2));
 const ergast = require("./ergast");
 const refresh = require("./refresh");
-const currentYear = require("./current-year");
+const season = require("marshal-seasons/season");
 
 const printJson = data => console.log(JSON.stringify(data, null, 4));
 
 if (argv.refresh) {
-  refresh(currentYear).then(printJson);
+  refresh(season.year).then(printJson);
 }
 
 if (argv.endpoint) {

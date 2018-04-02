@@ -1,5 +1,5 @@
 const ergast = require("./ergast");
-const db = require("./db/entity");
+const db = require("marshal-db/ergast");
 
 module.exports = year =>
   Promise.all([

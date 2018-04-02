@@ -1,6 +1,6 @@
 const { fbTemplate } = require("claudia-bot-builder");
 const size = require("lodash/size");
-const db = require("../db/ergast");
+const db = require("marshal-db/ergast");
 const season = require("../data/season");
 
 module.exports = roundIndex => {

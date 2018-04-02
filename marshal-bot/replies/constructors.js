@@ -1,6 +1,5 @@
 const { fbTemplate } = require("claudia-bot-builder");
-const db = require("../db/ergast");
-const season = require("../data/season");
+const db = require("marshal-db/ergast");
 
 module.exports = () => {
   return db.fetchItem(`${season.year}/constructorStandings`).then(data => {

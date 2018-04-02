@@ -1,8 +1,8 @@
 {
-  "name": "marshal-bot",
+  "name": "marshal-db",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "marshal-db": "../marshal-db",
-    "aws-sdk": "^2.211.0",
-    "claudia-bot-builder": "^3.0.0",
-    "lodash": "^4.17.5",
-    "moment": "^2.21.0"
-  },
-  "devDependencies": {
     "minimist": "^1.2.0"
   }
 }

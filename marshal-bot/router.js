@@ -9,7 +9,7 @@ const winners = require("./replies/winners");
 const round = require("./replies/round");
 
 const season = require("./data/season");
-const db = require("./db/conversations");
+const db = require("marshal-db/conversations");
 
 module.exports = message => {
   // console.log(message);

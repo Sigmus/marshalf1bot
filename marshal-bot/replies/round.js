@@ -1,7 +1,7 @@
 const { fbTemplate } = require("claudia-bot-builder");
 const size = require("lodash/size");
 const moment = require("moment");
-const db = require("../db/ergast");
+const db = require("marshal-db/ergast");
 const season = require("../data/season");
 const lastWinners = require("../data/archive/last-winners");
 

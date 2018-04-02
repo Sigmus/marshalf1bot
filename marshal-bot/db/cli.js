@@ -1,41 +1,11 @@
 const argv = require("minimist")(process.argv.slice(2));
-const { client, docClient } = require("./dynamodb");
 const conversations = require("./conversations");
 
-const TableName = "MarshalConversations";
-
-if (argv.create) {
-  const params = {
-    TableName,
-    KeySchema: [
-      { AttributeName: "sender", KeyType: "HASH" }, //Partition key
-      { AttributeName: "timestamp", KeyType: "RANGE" } //Sort key
-    ],
-    AttributeDefinitions: [
-      { AttributeName: "sender", AttributeType: "S" },
-      { AttributeName: "timestamp", AttributeType: "N" }
-    ],
-    ProvisionedThroughput: {
-      ReadCapacityUnits: 1,
-      WriteCapacityUnits: 1
-    }
-  };
-
-  client
-    .createTable(params)
-    .promise()
-    .then(data => {
-      console.log(
-        "Created table. Table description JSON:",
-        JSON.stringify(data, null, 2)
-      );
-    })
-    .catch(err =>
-      console.error(
-        "Unable to create table. Error JSON:",
-        JSON.stringify(err, null, 2)
-      )
-    );
+if (argv.createTable) {
+  conversations
+    .createTable()
+    .then(result => console.log(result))
+    .catch(err => console.log(err));
 }
 
 if (argv.insert) {

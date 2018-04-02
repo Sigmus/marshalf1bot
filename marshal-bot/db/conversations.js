@@ -1,4 +1,4 @@
-const docClient = require("./dynamodb").docClient;
+const { client, docClient } = require("./dynamodb");
 
 const TableName = "MarshalConversations";
 
@@ -29,4 +29,38 @@ const remove = sender =>
     )
   );
 
-module.exports = { insert, fetch, remove };
+const createTable = () => {
+  const params = {
+    TableName,
+    KeySchema: [
+      { AttributeName: "sender", KeyType: "HASH" }, //Partition key
+      { AttributeName: "timestamp", KeyType: "RANGE" } //Sort key
+    ],
+    AttributeDefinitions: [
+      { AttributeName: "sender", AttributeType: "S" },
+      { AttributeName: "timestamp", AttributeType: "N" }
+    ],
+    ProvisionedThroughput: {
+      ReadCapacityUnits: 1,
+      WriteCapacityUnits: 1
+    }
+  };
+
+  return client
+    .createTable(params)
+    .promise()
+    .then(data => {
+      console.log(
+        "Created table. Table description JSON:",
+        JSON.stringify(data, null, 2)
+      );
+    })
+    .catch(err =>
+      console.error(
+        "Unable to create table. Error JSON:",
+        JSON.stringify(err, null, 2)
+      )
+    );
+};
+
+module.exports = { insert, fetch, remove, createTable };

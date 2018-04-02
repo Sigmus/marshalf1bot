@@ -1,6 +1,5 @@
-const AWS = require("aws-sdk");
-const s3 = new AWS.S3();
 const ergast = require("./ergast");
+const db = require("./db/entity");
 
 module.exports = year =>
   Promise.all([
@@ -11,14 +10,10 @@ module.exports = year =>
   ]);
 
 const copyData = (year, name) =>
-  ergast[name](year).then(data => putObject(`${year}/${name}.json`, data));
-
-const putObject = (Key, data) =>
-  s3
-    .putObject({
-      Bucket: "marshalf1bot",
-      Key,
-      Body: JSON.stringify(data),
-      ACL: "public-read"
+  ergast[name](year).then(data =>
+    db.insert({
+      endpoint: `${year}/${name}`,
+      timestamp: new Date().getTime(),
+      data: JSON.stringify(data)
     })
-    .promise();
+  );

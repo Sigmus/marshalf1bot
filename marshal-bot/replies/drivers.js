@@ -1,9 +1,9 @@
 const { fbTemplate } = require("claudia-bot-builder");
-const fetchS3 = require("../data/fetch-s3");
+const db = require("../db/ergast");
 const season = require("../data/season");
 
 module.exports = () => {
-  return fetchS3("driverStandings.json").then(data => {
+  return db.fetchItem(`${season.year}/driverStandings`).then(data => {
     const content = data
       .map(row => `${row.pos}. ${row.driver} – ${row.points}`)
       .join("\n");

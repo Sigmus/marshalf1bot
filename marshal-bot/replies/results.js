@@ -1,11 +1,12 @@
 const { fbTemplate } = require("claudia-bot-builder");
 const size = require("lodash/size");
-const fetchS3 = require("../data/fetch-s3");
+const db = require("../db/ergast");
+const season = require("../data/season");
 
 module.exports = roundIndex => {
   return Promise.all([
-    fetchS3("qualifying.json"),
-    fetchS3("results.json")
+    db.fetchItem(`${season.year}/qualifying`),
+    db.fetchItem(`${season.year}/results`)
   ]).then(response => {
     const qualifying = response[0][roundIndex] ? response[0][roundIndex] : [];
     const results = response[1][roundIndex] ? response[1][roundIndex] : [];

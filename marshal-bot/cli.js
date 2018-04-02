@@ -1,5 +1,6 @@
 const argv = require("minimist")(process.argv.slice(2));
 const router = require("./router");
+const processConvesation = require("./process-conversation");
 
 // node cli.js --cmd 'next'
 
@@ -13,8 +14,12 @@ const printResponse = response =>
     typeof response === "string" ? response : JSON.stringify(response, null, 4)
   );
 
-router({
+const message = {
   text: argv.cmd,
   sender: "xpto",
   originalRequest: { timestamp: new Date().getTime() }
-}).then(printResponse);
+};
+
+processConvesation(message).then(previousMessage => {
+  router(message, previousMessage).then(printResponse);
+});

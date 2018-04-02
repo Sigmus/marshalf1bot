@@ -1,4 +1,4 @@
-const moment = require("moment");
+const season = require("marshal-seasons/season");
 
 const races = require("./replies/races");
 const drivers = require("./replies/drivers");
@@ -8,32 +8,7 @@ const qualifying = require("./replies/qualifying");
 const winners = require("./replies/winners");
 const round = require("./replies/round");
 
-const season = require("marshal-seasons/season");
-const db = require("marshal-db/conversations");
-
-module.exports = message => {
-  // console.log(message);
-  // process.exit(1);
-  let previousMessage = null;
-  return db.fetch(message.sender).then(response => {
-    if (response.Items.length) {
-      previousMessage = response.Items[0];
-      // console.log("previousMessage", previousMessage);
-    }
-    return db
-      .insert({
-        sender: message.sender,
-        text: message.text,
-        timestamp: message.originalRequest.timestamp,
-        originalRequest: message.originalRequest
-      })
-      .then(() => {
-        return parseRoutes(message);
-      });
-  });
-};
-
-const parseRoutes = message => {
+module.exports = (message, previousMessage) => {
   const cmd = message.text.toLowerCase();
   let aux;
   let roundNumber;

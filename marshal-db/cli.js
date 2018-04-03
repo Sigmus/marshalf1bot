@@ -1,8 +1,8 @@
 const argv = require("minimist")(process.argv.slice(2));
-const conversations = require("./conversations");
+const settings = require("./settings");
 
 if (argv.createTable) {
-  conversations
+  settings
     .createTable()
     .then(result => console.log(result))
     .catch(err => console.log(err));
@@ -10,7 +10,7 @@ if (argv.createTable) {
 
 if (argv.insert) {
   const timestamp = new Date().getTime();
-  conversations
+  settings
     .insert({
       timestamp,
       sender: "xpto",
@@ -22,7 +22,7 @@ if (argv.insert) {
 }
 
 if (argv.fetch) {
-  conversations
+  settings
     .fetch("xpto")
     // .then(r =>
     //   JSON.stringify(console.log(r.Items.map(x => x.originalRequest)), null, 4)
@@ -32,7 +32,7 @@ if (argv.fetch) {
 }
 
 if (argv.remove) {
-  conversations
+  settings
     .remove("xpto")
     .then(r => console.log(r))
     .catch(err => console.log(err));

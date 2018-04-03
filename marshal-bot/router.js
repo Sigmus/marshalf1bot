@@ -7,6 +7,7 @@ const results = require("./replies/results");
 const qualifying = require("./replies/qualifying");
 const winners = require("./replies/winners");
 const round = require("./replies/round");
+const setKeySettings = require("./replies/set-key-settings");
 
 module.exports = (message, previousMessage) => {
   const cmd = message.text.toLowerCase();
@@ -37,6 +38,12 @@ module.exports = (message, previousMessage) => {
 
   if (cmd == "last results") {
     return results(season.getPrevRoundIndex());
+  }
+
+  aux = cmd.split("set");
+  if (aux.length === 2) {
+    aux = aux[1].split(" ");
+    return setKeySettings(aux[1], aux[2]);
   }
 
   aux = cmd.split("results");

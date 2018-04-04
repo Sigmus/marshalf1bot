@@ -5,6 +5,7 @@ const drivers = require("./replies/drivers");
 const constructors = require("./replies/constructors");
 const results = require("./replies/results");
 const qualifying = require("./replies/qualifying");
+const settings = require("./replies/settings");
 const winners = require("./replies/winners");
 const round = require("./replies/round");
 const location = require("./replies/location");
@@ -21,6 +22,10 @@ module.exports = (message, previousMessage) => {
   let roundNumber;
 
   console.log("cmd", cmd);
+
+  if (cmd === "Settings" || cmd === "settings") {
+    return settings();
+  }
 
   aux = cmd.split("set");
   if (aux.length === 2) {

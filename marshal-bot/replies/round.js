@@ -1,6 +1,10 @@
 const { fbTemplate } = require("claudia-bot-builder");
 const size = require("lodash/size");
 const moment = require("moment");
+require("moment-timezone");
+
+const settings = require("../settings");
+
 const db = require("marshal-db/ergast");
 const season = require("marshal-seasons/season");
 const lastWinners = require("marshal-seasons/archive/last-winners");
@@ -13,9 +17,15 @@ module.exports = roundIndex => {
     const qualifying = response[0][roundIndex] ? response[0][roundIndex] : [];
     const results = response[1][roundIndex] ? response[1][roundIndex] : [];
 
-    let content = `${season.data[roundIndex].title} Grand Prix\n${moment
-      .unix(season.data[roundIndex].ts)
-      .format("MMM Do, LT")} – Round ${season.data[roundIndex].round}`;
+    const when = moment.unix(season.data[roundIndex].ts);
+
+    if (settings.getKey("timezone")) {
+      when.tz(settings.getKey("timezone"));
+    }
+
+    let content = `${season.data[roundIndex].title} Grand Prix\n${when.format(
+      "MMM Do, LT"
+    )} – Round ${season.data[roundIndex].round}`;
 
     if (!size(results)) {
       content +=

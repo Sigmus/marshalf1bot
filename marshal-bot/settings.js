@@ -4,6 +4,8 @@ let settings = {};
 
 const setKey = (key, value) => (settings[key] = value);
 
+const getKey = key => settings[key];
+
 const save = () => {
   settings.timestamp = new Date().getTime();
   return db.insert(settings);
@@ -16,4 +18,4 @@ const fetch = sender => {
   });
 };
 
-module.exports = { setKey, save, fetch };
+module.exports = { setKey, getKey, save, fetch };

@@ -10,11 +10,19 @@ const round = require("./replies/round");
 const setKeySettings = require("./replies/set-key-settings");
 
 module.exports = (message, previousMessage) => {
-  const cmd = message.text.toLowerCase();
+  let cmd = message.text;
   let aux;
   let roundNumber;
 
   console.log("cmd", cmd);
+
+  aux = cmd.split("set");
+  if (aux.length === 2) {
+    aux = aux[1].split(" ");
+    return setKeySettings(aux[1], aux[2]);
+  }
+
+  cmd = cmd.toLowerCase();
 
   if (cmd === "drivers") {
     return drivers();
@@ -38,12 +46,6 @@ module.exports = (message, previousMessage) => {
 
   if (cmd == "last results") {
     return results(season.getPrevRoundIndex());
-  }
-
-  aux = cmd.split("set");
-  if (aux.length === 2) {
-    aux = aux[1].split(" ");
-    return setKeySettings(aux[1], aux[2]);
   }
 
   aux = cmd.split("results");

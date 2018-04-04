@@ -10,8 +10,28 @@ if (!argv.cmd) {
 const message = {
   text: argv.cmd,
   sender: "xpto",
-  originalRequest: { timestamp: new Date().getTime() }
+  originalRequest: {
+    timestamp: new Date().getTime()
+  }
 };
+
+if (argv.location) {
+  message.originalRequest = {
+    message: {
+      attachments: [
+        {
+          type: "location",
+          payload: {
+            coordinates: {
+              lat: 50.645742,
+              long: 5.003252
+            }
+          }
+        }
+      ]
+    }
+  };
+}
 
 processConvesation(message).then(previousMessage => {
   router(message, previousMessage).then(response =>

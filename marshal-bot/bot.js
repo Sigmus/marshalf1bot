@@ -3,9 +3,11 @@ const router = require("./router");
 const processConvesation = require("./process-conversation");
 
 module.exports = botBuilder(
-  message =>
-    processConvesation(message).then(previousMessage =>
+  message => {
+    console.log("message", JSON.stringify(message, null, 4));
+    return processConvesation(message).then(previousMessage =>
       router(message, previousMessage)
-    ),
+    );
+  },
   { platforms: ["facebook"] }
 );

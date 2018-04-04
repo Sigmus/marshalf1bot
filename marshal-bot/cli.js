@@ -1,3 +1,4 @@
+require("dotenv").config();
 const argv = require("minimist")(process.argv.slice(2));
 const router = require("./router");
 const processConvesation = require("./process-conversation");

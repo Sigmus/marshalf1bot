@@ -7,9 +7,15 @@ const results = require("./replies/results");
 const qualifying = require("./replies/qualifying");
 const winners = require("./replies/winners");
 const round = require("./replies/round");
+const location = require("./replies/location");
 const setKeySettings = require("./replies/set-key-settings");
+const { isLocationAttachment } = require("./tools");
 
 module.exports = (message, previousMessage) => {
+  if (isLocationAttachment(message)) {
+    return location(message, previousMessage);
+  }
+
   let cmd = message.text;
   let aux;
   let roundNumber;

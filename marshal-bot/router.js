@@ -35,14 +35,6 @@ module.exports = (message, previousMessage) => {
 
   cmd = cmd.toLowerCase();
 
-  if (cmd === "drivers") {
-    return drivers(0);
-  }
-
-  if (cmd === "constructors") {
-    return constructors(0);
-  }
-
   if (cmd === "races") {
     return races(0);
   }
@@ -57,6 +49,16 @@ module.exports = (message, previousMessage) => {
 
   if (cmd == "last results") {
     return results(season.getPrevRoundIndex());
+  }
+
+  aux = cmd.split(" ");
+
+  if (aux[0] === "drivers") {
+    return drivers(aux[1] || 0);
+  }
+
+  if (aux[0] === "constructors") {
+    return constructors(aux[1] || 0);
   }
 
   aux = cmd.split("results");
@@ -79,5 +81,5 @@ module.exports = (message, previousMessage) => {
     return winners(parseInt(aux[1]) - 1);
   }
 
-  return "What?";
+  return new Promise(resolve => resolve("What?"));
 };

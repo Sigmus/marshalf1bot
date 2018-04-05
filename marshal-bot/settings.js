@@ -13,7 +13,16 @@ const save = () => {
 
 const fetch = sender => {
   return db.fetch(sender).then(response => {
-    settings = response.Items.length ? response.Items[0] : { sender };
+    if (!response.Items.length) {
+      // Ensure default keys not only when creating a whole new payload
+      settings = {
+        sender,
+        timezone: "Europe/London",
+        pagesize: 5
+      };
+      return save().then(() => settings);
+    }
+    settings = response.Items[0];
     return settings;
   });
 };

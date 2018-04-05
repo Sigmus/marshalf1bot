@@ -36,11 +36,11 @@ module.exports = (message, previousMessage) => {
   cmd = cmd.toLowerCase();
 
   if (cmd === "drivers") {
-    return drivers();
+    return drivers(0);
   }
 
   if (cmd === "constructors") {
-    return constructors();
+    return constructors(0);
   }
 
   if (cmd === "races") {

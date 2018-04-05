@@ -1,10 +1,12 @@
 const { fbTemplate } = require("claudia-bot-builder");
 const db = require("marshal-db/ergast");
 const season = require("marshal-seasons/season");
+const settings = require("../settings");
 
-module.exports = () => {
+module.exports = offset => {
   return db.fetchItem(`${season.year}/constructorStandings`).then(data => {
     const content = data
+      .slice(offset, offset + parseInt(settings.getKey("pagesize")))
       .map(row => `${row.pos}. ${row.team} – ${row.points}`)
       .join("\n");
 

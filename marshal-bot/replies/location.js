@@ -22,6 +22,8 @@ module.exports = (message, previousMessage) => {
       `set timezone ${response.data.timeZoneId}`
     );
 
+    obj.addQuickReplyLocation();
+
     return obj.get();
   });
 };

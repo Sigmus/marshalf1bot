@@ -1,0 +1,17 @@
+{
+  "name": "marshal-parse-ergast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "marshal-db": "../marshal-db",
+    "minimist": "^1.2.0",
+    "sha1": "^1.1.1"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "Records": [
+    {
+      "eventID": "21ac1b5d3985c156aa856b93818807f2",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "eu-west-1",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1522988940,
+        "Keys": {
+          "endpoint": {
+            "S": "2018/constructorStandings"
+          },
+          "timestamp": {
+            "N": "1522988956157"
+          }
+        },
+        "NewImage": {
+          "endpoint": {
+            "S": "2018/constructorStandings"
+          },
+          "data": {
+            "S":
+              "[{\"pos\":\"1\",\"points\":\"40\",\"team\":\"Ferrari\"},{\"pos\":\"2\",\"points\":\"22\",\"team\":\"Mercedes\"},{\"pos\":\"3\",\"points\":\"20\",\"team\":\"Red Bull\"},{\"pos\":\"4\",\"points\":\"12\",\"team\":\"McLaren\"},{\"pos\":\"5\",\"points\":\"7\",\"team\":\"Renault\"},{\"pos\":\"6\",\"points\":\"0\",\"team\":\"Force India\"},{\"pos\":\"7\",\"points\":\"0\",\"team\":\"Sauber\"},{\"pos\":\"8\",\"points\":\"0\",\"team\":\"Williams\"},{\"pos\":\"9\",\"points\":\"0\",\"team\":\"Toro Rosso\"},{\"pos\":\"10\",\"points\":\"0\",\"team\":\"Haas F1 Team\"}]"
+          },
+          "timestamp": {
+            "N": "1522988956157"
+          }
+        },
+        "SequenceNumber": "16254400000000014370035225",
+        "SizeBytes": 544,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN":
+        "arn:aws:dynamodb:eu-west-1:637601246378:table/Ergast/stream/2018-04-05T10:31:51.279"
+    },
+    {
+      "eventID": "d23e85d278af4e7711db2e8eb350c9c6",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "eu-west-1",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1522988940,
+        "Keys": {
+          "endpoint": {
+            "S": "2018/qualifying"
+          },
+          "timestamp": {
+            "N": "1522988956232"
+          }
+        },
+        "NewImage": {
+          "endpoint": {
+            "S": "2018/qualifying"
+          },
+          "data": {
+            "S":
+              "[{\"title\":\"Australian\",\"slug\":\"australian\",\"qualifying\":[{\"pos\":\"1\",\"q1\":\"1:22.824\",\"q2\":\"1:22.051\",\"q3\":\"1:21.164\",\"driver\":\"Hamilton\"},{\"pos\":\"2\",\"q1\":\"1:23.096\",\"q2\":\"1:22.507\",\"q3\":\"1:21.828\",\"driver\":\"Räikkönen\"},{\"pos\":\"3\",\"q1\":\"1:23.348\",\"q2\":\"1:21.944\",\"q3\":\"1:21.838\",\"driver\":\"Vettel\"},{\"pos\":\"4\",\"q1\":\"1:23.483\",\"q2\":\"1:22.416\",\"q3\":\"1:21.879\",\"driver\":\"Verstappen\"},{\"pos\":\"5\",\"q1\":\"1:23.494\",\"q2\":\"1:22.897\",\"q3\":\"1:22.152\",\"driver\":\"Ricciardo\"},{\"pos\":\"6\",\"q1\":\"1:23.909\",\"q2\":\"1:23.300\",\"q3\":\"1:23.187\",\"driver\":\"Magnussen\"},{\"pos\":\"7\",\"q1\":\"1:23.671\",\"q2\":\"1:23.468\",\"q3\":\"1:23.339\",\"driver\":\"Grosjean\"},{\"pos\":\"8\",\"q1\":\"1:23.782\",\"q2\":\"1:23.544\",\"q3\":\"1:23.532\",\"driver\":\"Hülkenberg\"},{\"pos\":\"9\",\"q1\":\"1:23.529\",\"q2\":\"1:23.061\",\"q3\":\"1:23.577\",\"driver\":\"Sainz\"},{\"pos\":\"10\",\"q1\":\"1:23.686\",\"q2\":\"1:22.089\",\"driver\":\"Bottas\"},{\"pos\":\"11\",\"q1\":\"1:23.597\",\"q2\":\"1:23.692\",\"driver\":\"Alonso\"},{\"pos\":\"12\",\"q1\":\"1:24.073\",\"q2\":\"1:23.853\",\"driver\":\"Vandoorne\"},{\"pos\":\"13\",\"q1\":\"1:24.344\",\"q2\":\"1:24.005\",\"driver\":\"Pérez\"},{\"pos\":\"14\",\"q1\":\"1:24.464\",\"q2\":\"1:24.230\",\"driver\":\"Stroll\"},{\"pos\":\"15\",\"q1\":\"1:24.503\",\"q2\":\"1:24.786\",\"driver\":\"Ocon\"},{\"pos\":\"16\",\"q1\":\"1:24.532\",\"driver\":\"Hartley\"},{\"pos\":\"17\",\"q1\":\"1:24.556\",\"driver\":\"Ericsson\"},{\"pos\":\"18\",\"q1\":\"1:24.636\",\"driver\":\"Leclerc\"},{\"pos\":\"19\",\"q1\":\"1:24.922\",\"driver\":\"Sirotkin\"},{\"pos\":\"20\",\"q1\":\"1:25.295\",\"driver\":\"Gasly\"}]}]"
+          },
+          "timestamp": {
+            "N": "1522988956232"
+          }
+        },
+        "SequenceNumber": "16254500000000014370035276",
+        "SizeBytes": 1487,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN":
+        "arn:aws:dynamodb:eu-west-1:637601246378:table/Ergast/stream/2018-04-05T10:31:51.279"
+    },
+    {
+      "eventID": "1d9e4195087f179ac38717cb13631a3d",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "eu-west-1",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1522988940,
+        "Keys": {
+          "endpoint": {
+            "S": "2018/results"
+          },
+          "timestamp": {
+            "N": "1522988956508"
+          }
+        },
+        "NewImage": {
+          "endpoint": {
+            "S": "2018/results"
+          },
+          "data": {
+            "S":
+              "[{\"title\":\"Australian\",\"slug\":\"australian\",\"results\":[{\"pos\":\"1\",\"driver\":\"Vettel\",\"time\":\"1:29:33.283\"},{\"pos\":\"2\",\"driver\":\"Hamilton\",\"time\":\"+5.036\"},{\"pos\":\"3\",\"driver\":\"Räikkönen\",\"time\":\"+6.309\"},{\"pos\":\"4\",\"driver\":\"Ricciardo\",\"time\":\"+7.069\"},{\"pos\":\"5\",\"driver\":\"Alonso\",\"time\":\"+27.886\"},{\"pos\":\"6\",\"driver\":\"Verstappen\",\"time\":\"+28.945\"},{\"pos\":\"7\",\"driver\":\"Hülkenberg\",\"time\":\"+32.671\"},{\"pos\":\"8\",\"driver\":\"Bottas\",\"time\":\"+34.339\"},{\"pos\":\"9\",\"driver\":\"Vandoorne\",\"time\":\"+34.921\"},{\"pos\":\"10\",\"driver\":\"Sainz\",\"time\":\"+45.722\"},{\"pos\":\"11\",\"driver\":\"Pérez\",\"time\":\"+46.817\"},{\"pos\":\"12\",\"driver\":\"Ocon\",\"time\":\"+1:00.278\"},{\"pos\":\"13\",\"driver\":\"Leclerc\",\"time\":\"+1:15.759\"},{\"pos\":\"14\",\"driver\":\"Stroll\",\"time\":\"+1:18.288\"},{\"pos\":\"15\",\"driver\":\"Hartley\"},{\"pos\":\"16\",\"driver\":\"Grosjean\"},{\"pos\":\"17\",\"driver\":\"Magnussen\"},{\"pos\":\"18\",\"driver\":\"Gasly\"},{\"pos\":\"19\",\"driver\":\"Ericsson\"},{\"pos\":\"20\",\"driver\":\"Sirotkin\"}]}]"
+          },
+          "timestamp": {
+            "N": "1522988956508"
+          }
+        },
+        "SequenceNumber": "16254600000000014370035277",
+        "SizeBytes": 1019,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN":
+        "arn:aws:dynamodb:eu-west-1:637601246378:table/Ergast/stream/2018-04-05T10:31:51.279"
+    },
+    {
+      "eventID": "d6fcc13c556e87e12330959c1ad5a120",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "eu-west-1",
+      "dynamodb": {
+        "ApproximateCreationDateTime": 1522988940,
+        "Keys": {
+          "endpoint": {
+            "S": "2018/driverStandings"
+          },
+          "timestamp": {
+            "N": "1522988956580"
+          }
+        },
+        "NewImage": {
+          "endpoint": {
+            "S": "2018/driverStandings"
+          },
+          "data": {
+            "S":
+              "[{\"pos\":\"1\",\"points\":\"25\",\"driver\":\"Vettel\"},{\"pos\":\"2\",\"points\":\"18\",\"driver\":\"Hamilton\"},{\"pos\":\"3\",\"points\":\"15\",\"driver\":\"Räikkönen\"},{\"pos\":\"4\",\"points\":\"12\",\"driver\":\"Ricciardo\"},{\"pos\":\"5\",\"points\":\"10\",\"driver\":\"Alonso\"},{\"pos\":\"6\",\"points\":\"8\",\"driver\":\"Verstappen\"},{\"pos\":\"7\",\"points\":\"6\",\"driver\":\"Hülkenberg\"},{\"pos\":\"8\",\"points\":\"4\",\"driver\":\"Bottas\"},{\"pos\":\"9\",\"points\":\"2\",\"driver\":\"Vandoorne\"},{\"pos\":\"10\",\"points\":\"1\",\"driver\":\"Sainz\"},{\"pos\":\"11\",\"points\":\"0\",\"driver\":\"Pérez\"},{\"pos\":\"12\",\"points\":\"0\",\"driver\":\"Ocon\"},{\"pos\":\"13\",\"points\":\"0\",\"driver\":\"Leclerc\"},{\"pos\":\"14\",\"points\":\"0\",\"driver\":\"Stroll\"},{\"pos\":\"15\",\"points\":\"0\",\"driver\":\"Hartley\"},{\"pos\":\"16\",\"points\":\"0\",\"driver\":\"Grosjean\"},{\"pos\":\"17\",\"points\":\"0\",\"driver\":\"Magnussen\"},{\"pos\":\"18\",\"points\":\"0\",\"driver\":\"Gasly\"},{\"pos\":\"19\",\"points\":\"0\",\"driver\":\"Ericsson\"},{\"pos\":\"20\",\"points\":\"0\",\"driver\":\"Sirotkin\"}]"
+          },
+          "timestamp": {
+            "N": "1522988956580"
+          }
+        },
+        "SequenceNumber": "16254700000000014370035279",
+        "SizeBytes": 1000,
+        "StreamViewType": "NEW_AND_OLD_IMAGES"
+      },
+      "eventSourceARN":
+        "arn:aws:dynamodb:eu-west-1:637601246378:table/Ergast/stream/2018-04-05T10:31:51.279"
+    }
+  ]
+}

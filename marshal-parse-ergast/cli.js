@@ -7,5 +7,7 @@ const parse = require("./parse");
 // node cli.js --key 2018/qualifying
 
 if (argv.key) {
-  parse(argv.key).then(x => console.log(x));
+  parse(argv.key, argv.limit ? parseInt(argv.limit) : 2).then(x =>
+    console.log(x)
+  );
 }

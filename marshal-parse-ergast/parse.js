@@ -1,9 +1,9 @@
 const sha1 = require("sha1");
 const db = require("marshal-db/ergast");
 
-module.exports = key => {
+module.exports = (key, limit = 2) => {
   return db
-    .fetch(key, 2)
+    .fetch(key, limit)
     .then(response =>
       response.Items.map(i => {
         return {

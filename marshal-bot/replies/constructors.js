@@ -10,6 +10,7 @@ module.exports = offset => {
     const total = data.length;
     const startpos = offset * pagesize;
     const endpos = offset * pagesize + pagesize;
+
     const content = data
       .slice(startpos, endpos)
       .map(row => `${row.pos}. ${row.team} – ${row.points}`)
@@ -21,7 +22,7 @@ module.exports = offset => {
 
     if (endpos < total) {
       newMessage.addQuickReply(
-        `+${pagesize}`,
+        `+${total - endpos > pagesize ? pagesize : total - endpos}`,
         `drivers ${parseInt(offset, 10) + 1}`
       );
     }

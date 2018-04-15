@@ -22,7 +22,7 @@ module.exports = offset => {
 
     if (endpos < total) {
       newMessage.addQuickReply(
-        `+${pagesize}`,
+        `+${total - endpos > pagesize ? pagesize : total - endpos}`,
         `drivers ${parseInt(offset, 10) + 1}`
       );
     }

@@ -11,16 +11,18 @@ module.exports = roundIndex => {
     const qualifying = response[0][roundIndex] ? response[0][roundIndex] : [];
     const results = response[1][roundIndex] ? response[1][roundIndex] : [];
 
-    const content = results.results
-      .map(
-        item =>
-          `${item.pos}. ${item.driver} ${
-            item.time ? "(" + item.time + ")" : ""
-          }`
-      )
-      .join("\n");
-
-    const obj = new fbTemplate.Text(`${results.title} Results:\n\n${content}`);
+    const obj = new fbTemplate.Text(
+      size(results) > 0
+        ? `${results.title} Results:\n\n${results.results
+            .map(
+              item =>
+                `${item.pos}. ${item.driver} ${
+                  item.time ? "(" + item.time + ")" : ""
+                }`
+            )
+            .join("\n")}`
+        : `Results not available yet`
+    );
 
     if (size(qualifying)) {
       obj.addQuickReply("Qualifying", `qualifying ${roundIndex + 1}`);

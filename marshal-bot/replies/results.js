@@ -11,9 +11,11 @@ module.exports = roundIndex => {
     const qualifying = response[0][roundIndex] ? response[0][roundIndex] : [];
     const results = response[1][roundIndex] ? response[1][roundIndex] : [];
 
+    const title = `${season.data[roundIndex].title} Grand Prix Results`;
+
     const obj = new fbTemplate.Text(
       size(results) > 0
-        ? `${results.title} Results:\n\n${results.results
+        ? `${title}:\n\n${results.results
             .map(
               item =>
                 `${item.pos}. ${item.driver} ${
@@ -21,7 +23,7 @@ module.exports = roundIndex => {
                 }`
             )
             .join("\n")}`
-        : `Results not available yet`
+        : `${title} not available yet`
     );
 
     if (size(qualifying)) {

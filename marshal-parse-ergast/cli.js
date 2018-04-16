@@ -8,6 +8,6 @@ const parse = require("./parse");
 
 if (argv.key) {
   parse(argv.key, argv.limit ? parseInt(argv.limit) : 2).then(x =>
-    console.log(x)
+    console.log(JSON.stringify(x, null, 4))
   );
 }

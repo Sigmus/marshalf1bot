@@ -2,6 +2,7 @@ const argv = require("minimist")(process.argv.slice(2));
 const ergast = require("./ergast");
 const refresh = require("./refresh");
 const season = require("marshal-seasons/season");
+const range = require("lodash/range");
 
 const printJson = data => console.log(JSON.stringify(data, null, 4));
 
@@ -31,4 +32,16 @@ if (argv.results) {
 
 if (argv.season) {
   ergast.season(argv.season).then(printJson);
+}
+
+if (argv.range) {
+  const years = range(argv.start, argv.end + 1);
+  Promise.all(years.map(y => ergast[argv.range](y)))
+    .then(results =>
+      results.reduce((acc, next, index) => {
+        acc[years[index]] = next;
+        return acc;
+      }, {})
+    )
+    .then(printJson);
 }

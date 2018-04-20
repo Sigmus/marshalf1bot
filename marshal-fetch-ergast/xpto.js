@@ -8,10 +8,25 @@ const results = require("./results");
 const getUniqueCircuitSlugs = () =>
   _.uniq(
     _.flatten(
-      _.map(results, (races, year) => {
-        return races.map(i => i.slug);
+      _.map(results, (races, season) => {
+        return races.map(i => i.circuit);
       })
     )
   );
 
-printJson(getUniqueCircuitSlugs().length);
+const filterByCircuit = circuit => {
+  return _.map(results, (races, season) => {
+    return races.filter(i => i.circuit === circuit).map(i => {
+      i.season = season;
+      return i;
+    });
+  });
+};
+
+if (argv.getUniqueCircuitSlugs) {
+  printJson(getUniqueCircuitSlugs().length);
+}
+
+if (argv.filterByCircuit) {
+  printJson(filterByCircuit(argv.filterByCircuit));
+}

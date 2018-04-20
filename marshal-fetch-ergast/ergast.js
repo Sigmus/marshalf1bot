@@ -79,6 +79,7 @@ const results = year => {
       return {
         title: title(i.raceName),
         slug: slug(i.raceName),
+        circuit: i.Circuit.circuitId,
         results: i.Results.map(j => {
           const result = {
             pos: j.position,

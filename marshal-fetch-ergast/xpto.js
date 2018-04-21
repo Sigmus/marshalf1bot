@@ -23,10 +23,25 @@ const filterByCircuit = circuit => {
   });
 };
 
+// node xpto.js --filterByRaceSlug european | pbcopy
+
+const filterByRaceSlug = slug => {
+  return _.map(results, (races, season) => {
+    return races.filter(i => i.slug === slug).map(i => {
+      i.season = season;
+      return i;
+    });
+  });
+};
+
 if (argv.getUniqueCircuitSlugs) {
   printJson(getUniqueCircuitSlugs().length);
 }
 
 if (argv.filterByCircuit) {
   printJson(filterByCircuit(argv.filterByCircuit));
+}
+
+if (argv.filterByRaceSlug) {
+  printJson(filterByRaceSlug(argv.filterByRaceSlug));
 }

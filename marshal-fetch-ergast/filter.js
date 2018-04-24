@@ -23,8 +23,8 @@ const filterByCircuit = circuit => {
   });
 };
 
-// node xpto.js --filterByRaceSlug european | pbcopy
-// node xpto.js --filterByCircuit BAK | pbcopy
+// node filter.js --filterByRaceSlug european | pbcopy
+// node filter.js --filterByCircuit BAK | pbcopy
 
 const filterByRaceSlug = slug => {
   return _.map(results, (races, season) => {

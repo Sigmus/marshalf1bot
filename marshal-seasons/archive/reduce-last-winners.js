@@ -21,7 +21,15 @@ const winners = _.reduce(
     });
     return acc;
   },
-  {}
+  {
+    azerbaijan: [
+      {
+        season: "2016",
+        race: "azerbaijan",
+        driver: "Rosberg"
+      }
+    ]
+  }
 );
 
 console.log(JSON.stringify(winners, null, 4));

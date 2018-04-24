@@ -1,4 +1,16 @@
 {
+    "azerbaijan": [
+        {
+            "season": "2016",
+            "race": "azerbaijan",
+            "driver": "Rosberg"
+        },
+        {
+            "season": "2017",
+            "race": "azerbaijan",
+            "driver": "Ricciardo"
+        }
+    ],
     "australian": [
         {
             "season": "2013",
@@ -528,13 +540,6 @@
             "season": "2016",
             "race": "european",
             "driver": "Rosberg"
-        }
-    ],
-    "azerbaijan": [
-        {
-            "season": "2017",
-            "race": "azerbaijan",
-            "driver": "Ricciardo"
         }
     ]
 }
